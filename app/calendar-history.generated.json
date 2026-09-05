@@ -1,5 +1,23 @@
 [
   {
+    "id": "calendar-614dvqm6vssd7s4igqoo88g6pj-google-com-2026-09-05-20-00-00-000-",
+    "day": "05",
+    "month": "SET.",
+    "dateTime": "2026-09-05T20:00:00.000Z",
+    "title": "Lloret de Mar",
+    "place": "Plaça de la Vila",
+    "town": "Lloret de Mar",
+    "time": "22.00 h",
+    "type": "Sardanes",
+    "source": "https://calendar.google.com/calendar/event?eid=NjE0ZHZxbTZ2c3NkN3M0aWdxb284OGc2cGogbGFsbG9icmVnYXRAZ21haWwuY29t",
+    "monthKey": "2026-09",
+    "monthLabel": "Setembre 2026",
+    "mapPosition": {
+      "left": "73.20%",
+      "top": "47.19%"
+    }
+  },
+  {
     "id": "calendar-1902khf1d8hodl87auuqdo83mu-google-com-2026-09-05-16-00-00-000-",
     "day": "05",
     "month": "SET.",

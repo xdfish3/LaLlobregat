@@ -1,5 +1,23 @@
 [
   {
+    "id": "calendar-3ok9e4ur4p4e030diqbsjdlvh0-google-com-2026-09-06-09-15-00-000-",
+    "day": "06",
+    "month": "SET.",
+    "dateTime": "2026-09-06T09:15:00.000Z",
+    "title": "Barcelona",
+    "place": "Avinguda de la Catedral",
+    "town": "Barcelona",
+    "time": "11.15 h",
+    "type": "Sardanes",
+    "source": "https://calendar.google.com/calendar/event?eid=M29rOWU0dXI0cDRlMDMwZGlxYnNqZGx2aDAgbGFsbG9icmVnYXRAZ21haWwuY29t",
+    "monthKey": "2026-09",
+    "monthLabel": "Setembre 2026",
+    "mapPosition": {
+      "left": "57.19%",
+      "top": "58.80%"
+    }
+  },
+  {
     "id": "calendar-614dvqm6vssd7s4igqoo88g6pj-google-com-2026-09-05-20-00-00-000-",
     "day": "05",
     "month": "SET.",

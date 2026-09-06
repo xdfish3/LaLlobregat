@@ -1,5 +1,23 @@
 [
   {
+    "id": "calendar-00t1cifs19n9rs282j60ujvl26-google-com-2026-09-06-17-30-00-000-",
+    "day": "06",
+    "month": "SET.",
+    "dateTime": "2026-09-06T17:30:00.000Z",
+    "title": "Calella",
+    "place": "passeig Puigvert",
+    "town": "Calella",
+    "time": "19.30 h",
+    "type": "Sardanes",
+    "source": "https://calendar.google.com/calendar/event?eid=MDB0MWNpZnMxOW45cnMyODJqNjB1anZsMjYgbGFsbG9icmVnYXRAZ21haWwuY29t",
+    "monthKey": "2026-09",
+    "monthLabel": "Setembre 2026",
+    "mapPosition": {
+      "left": "68.80%",
+      "top": "50.30%"
+    }
+  },
+  {
     "id": "calendar-3ok9e4ur4p4e030diqbsjdlvh0-google-com-2026-09-06-09-15-00-000-",
     "day": "06",
     "month": "SET.",

@@ -1,6 +1,7 @@
+import fs from "fs";
+import path from "path";
 import type { Metadata } from "next";
 import Image from "next/image";
-import historyEvents from "../calendar-history.generated.json";
 import { sitePath } from "../site-path";
 import { HistoryArchive } from "./HistoryArchive";
 import { HistoryMap } from "./HistoryMap";
@@ -11,7 +12,16 @@ export const metadata: Metadata = {
     "Gairebé cent anys de música, places i projectes de La Principal del Llobregat, des de la fundació a Cornellà el 1929.",
 };
 
-export const dynamic = "force-static";
+// Carreguem el fitxer JSON directament des del sistema de fitxers en temps de build per evitar l'error 500 de Vinext
+const jsonPath = path.join(process.cwd(), "calendar-history.generated.json");
+let historyEvents = [];
+
+try {
+  const fileData = fs.readFileSync(jsonPath, "utf8");
+  historyEvents = JSON.parse(fileData);
+} catch (error) {
+  console.error("No s'ha pogut carregar 'calendar-history.generated.json':", error);
+}
 
 const milestones = [
   {

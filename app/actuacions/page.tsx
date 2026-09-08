@@ -23,11 +23,11 @@ const proposals = [
       "Del repertori clàssic als compositors contemporanis, cada concert és una oportunitat per descobrir una formació arrelada a la tradició i plenament oberta a noves sonoritats.",
   },
   {
-    kicker: "Espectacle amb narracio",
+    kicker: "Espectacle amb narració",
     title: "Mil i una nits amb la Llobregat",
-    text: "Un espectacle que entrellaça la brillant historia de la princesa Xahrazad amb el so de la cobla. Amb la complicitat d'una actriu o actor, tres dels contes mes coneguts de les Mil i una nits (Ali Baba, Aladi i Sinbad) prenen vida sobre l'escenari.",
+    text: "Un espectacle que entrellaça la brillant història de la princesa Xahrazad amb el so de la cobla. Amb la complicitat d'una actriu o actor, tres dels contes més coneguts de les Mil i una nits (Alí Babà, Aladí i Sínbad) prenen vida sobre l'escenari.",
     detail:
-      "L'espectacle aglutina sonoritats orientals amb el so caracteristic de la Llobregat, establint ponts entre passat i present, orient i occident, el classic i la cobla. Una combinacio de musica i narrativa d'uns 70 minuts de durada que no deixa ningu indiferent.",
+      "L'espectacle aglutina sonoritats orientals amb el so característic de la Llobregat, establint ponts entre passat i present, Orient i Occident, el clàssic i la cobla. Una combinació de música i narrativa d'uns 70 minuts de durada que no deixa ningú indiferent.",
     videos: [
       {
         title: "Teaser",
@@ -41,28 +41,28 @@ const proposals = [
   },
   {
     kicker: "Tenora, veu i cobla",
-    title: "Jordi Molina, Musica per cobla",
-    text: "Una nova proposta conjuntament amb el prestigios i reconegut tenorista Jordi Molina, el quartet Cypsela i les veus solistes de Julia Molina i Eva Trullas, que mostra tota la diversitat de la musica de cobla.",
+    title: "Jordi Molina, Música per a cobla",
+    text: "Una nova proposta conjuntament amb el prestigiós i reconegut tenorista Jordi Molina, el quartet Cypsela i les veus solistes de Júlia Molina i Eva Trullàs, que mostra tota la diversitat de la música de cobla.",
     detail:
-      "L'espectacle lliga generes poc habituals com la veu i la cobla, amb obres escrites pel mateix Jordi Molina o arranjaments per a quartet i cobla de grans compositors. Una oportunitat unica, d'uns 90 minuts, per descobrir una combinacio de generes gens habitual.",
+      "L'espectacle lliga gèneres poc habituals com la veu i la cobla, amb obres escrites pel mateix Jordi Molina o arranjaments per a quartet i cobla de grans compositors. Una oportunitat única, d'uns 90 minuts, per descobrir una combinació de gèneres gens habitual.",
     dossier: {
       title: "Document de l'espectacle",
-      file: "/multimedia/dossier-jordi-molina-musica-per-a-cobla.pdf",
+      file: "/multimedia/dossier-jordi-molina-música-per-a-cobla.pdf",
     },
   },
   {
     kicker: "Veu i cobla",
-    title: "Col·laboracio Quartet Melt",
-    text: "La Llobregat i els Melt uneix el so de la cobla amb les quatre veus del Quartet Melt. Un espectacle d'uns noranta minuts que travessa generes poc habituals en aquesta formacio, amb repertori propi del quartet i arranjaments de Jordi Molina.",
+    title: "Col·laboració Quartet Melt",
+    text: "La Llobregat i els Melt uneixen el so de la cobla amb les quatre veus del Quartet Melt. Un espectacle d'uns noranta minuts que travessa gèneres poc habituals en aquesta formació, amb repertori propi del quartet i arranjaments de Jordi Molina.",
     detail:
-      "Una proposta propera i sorprenent, amb cancons com Que tinguem sort, Bon dia, Qualsevol nit pot sortir el sol o L'himne dels pirates, transformades pel dialeg entre la veu i la cobla.",
+      "Una proposta propera i sorprenent, amb cançons com Que tinguem sort, Bon dia, Qualsevol nit pot sortir el sol o L'himne dels pirates, transformades pel diàleg entre la veu i la cobla.",
     videos: [
       {
-        title: "Video 01",
+        title: "Vídeo 01",
         file: "/multimedia/melt-teaser-01.mp4",
       },
       {
-        title: "Video 02",
+        title: "Vídeo 02",
         file: "/multimedia/melt-teaser-02.mp4",
       },
     ],
@@ -72,14 +72,14 @@ const proposals = [
     },
   },
   {
-    kicker: "Veu lirica i cobla",
-    title: "Col·laboracio Guillem Batllori",
-    text: "Una trobada singular entre la veu lirica de Guillem Batllori i el so inconfusible de La Principal del Llobregat. El programa combina moments brillants de la gran opera amb cancó catalana i melodies arrelades a la nostra cultura.",
+    kicker: "Veu lírica i cobla",
+    title: "Col·laboració Guillem Batllori",
+    text: "Una trobada singular entre la veu lírica de Guillem Batllori i el so inconfusible de La Principal del Llobregat. El programa combina moments brillants de la gran òpera amb cançó catalana i melodies arrelades a la nostra cultura.",
     detail:
-      "La proposta crea un pont natural entre l'univers operistic i la tradicio musical catalana, amb peces de compositors com Eduard Toldra i Xavier Montsalvatge, caracter teatral i una clara inspiracio mediterrania.",
+      "La proposta crea un pont natural entre l'univers operístic i la tradició musical catalana, amb peces de compositors com Eduard Toldrà i Xavier Montsalvatge, caràcter teatral i una clara inspiració mediterrània.",
     videos: [
       {
-        title: "Video del projecte",
+        title: "Vídeo del projecte",
         file: "/multimedia/guillem-batllori-teaser.mp4",
       },
     ],
@@ -90,13 +90,13 @@ const proposals = [
   },
   {
     kicker: "Piano i cobla",
-    title: "Col·laboracio Emma Stratton",
+    title: "Col·laboració Emma Stratton",
     text: "Un projecte compartit amb la pianista Emma Stratton, que suma el piano al so de la cobla.",
     detail:
-      "Consulta'n el dossier a l'apartat de multimedia per coneixer el programa i les condicions tecniques.",
+      "Consulta'n el dossier a l'apartat de multimèdia per conèixer el programa i les condicions tècniques.",
     videos: [
       {
-        title: "Video del projecte",
+        title: "Vídeo del projecte",
         file: "/multimedia/emma-stratton-teaser.mp4",
       },
     ],

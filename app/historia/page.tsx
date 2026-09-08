@@ -89,7 +89,8 @@ export default function HistoriaPage() {
           <p>
             Les {archivePhotos.length} fotografies del fons documental <em>Cobles,
             orquestres i músics de Catalunya</em>, dels anys trenta fins a l’aplec
-            d’Encamp del 2017. Cada imatge conserva el crèdit de l’arxiu d’origen.
+            d’Encamp del 2017. Cada imatge conserva el crèdit de l’arxiu d’origen
+            i, quan se’n coneixen, els noms dels músics que hi surten.
           </p>
         </div>
 

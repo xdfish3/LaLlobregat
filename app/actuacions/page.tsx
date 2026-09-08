@@ -172,7 +172,7 @@ export default function ActuacionsPage() {
                       <div key={vid.file} style={{ display: "flex", flexDirection: "column", gap: "0.5rem" }}>
                         {vid.title ? <span style={{ fontWeight: 600, fontSize: "0.9rem" }}>{vid.title}:</span> : null}
                         <div style={{ display: "flex", flexWrap: "wrap", gap: "1rem", alignItems: "center" }}>
-                          
+                          <a
                             href={sitePath(vid.file)}
                             target="_blank"
                             rel="noreferrer"
@@ -180,7 +180,7 @@ export default function ActuacionsPage() {
                           >
                             VEURE VÍDEO
                           </a>
-                          
+                          <a
                             href={sitePath(vid.file)}
                             download
                             style={buttonStyle}
@@ -197,7 +197,7 @@ export default function ActuacionsPage() {
                   <div style={{ marginTop: "1.5rem", display: "flex", flexDirection: "column", gap: "0.5rem" }}>
                     <span style={{ fontWeight: 600, fontSize: "0.9rem" }}>{proposal.dossier.title}:</span>
                     <div style={{ display: "flex", flexWrap: "wrap", gap: "1rem", alignItems: "center" }}>
-                      
+                      <a
                         href={sitePath(proposal.dossier.file)}
                         target="_blank"
                         rel="noreferrer"
@@ -205,7 +205,7 @@ export default function ActuacionsPage() {
                       >
                         VEURE DOCUMENT
                       </a>
-                      
+                      <a
                         href={sitePath(proposal.dossier.file)}
                         download
                         style={buttonStyle}

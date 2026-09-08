@@ -1,12 +1,19 @@
 import type { Metadata } from "next";
 import Image from "next/image";
-import historyEvents from "../calendar-history.generated.json";
+import historyEventsData from "../calendar-history.generated.json";
 import { sitePath } from "../site-path";
 import { HistoryArchive } from "./HistoryArchive";
 import { HistoryMap } from "./HistoryMap";
 
-export const metadata: Metadata = { title: "Història", description: "Gairebé cent anys de música, places i projectes de La Principal del Llobregat, des de la fundació a Cornellà el 1929." };
+export const metadata: Metadata = { 
+  title: "Història", 
+  description: "Gairebé cent anys de música, places i projectes de La Principal del Llobregat, des de la fundació a Cornellà el 1929." 
+};
+
 export const dynamic = "force-static";
+
+// Assegurem que les dades del JSON tinguin format d'array
+const historyEvents = Array.isArray(historyEventsData) ? historyEventsData : [];
 
 const milestones = [
   { year: "1914", title: "L’arrel", text: "A Cornellà de Llobregat es forma l’Orquestra L’Artística Llobregatana, que durant un any porta el nom de Cobla-orquestra Llobregat. D’aquell planter en sortirà la cobla." },
@@ -72,12 +79,41 @@ const blogPostUrl = "https://fotosformacionsmusicalsdecatalunya.blogspot.com/201
 export default function HistoriaPage() {
   return (
     <main id="contingut">
-      <header className="historyHero"><div><p className="eyebrow light">Des de 1929</p><h1>Una història<br /><em>que encara sona.</em></h1></div><p className="historyLead">La nostra és una història de músics, famílies, places i públic. Una història feta de continuïtat —i de la voluntat de tornar a començar cada vegada que el flabiol fa la primera nota.</p></header>
+      <header className="historyHero">
+        <div>
+          <p className="eyebrow light">Des de 1929</p>
+          <h1>Una història<br /><em>que encara sona.</em></h1>
+        </div>
+        <p className="historyLead">
+          La nostra és una història de músics, famílies, places i públic. Una història feta de continuïtat —i de la voluntat de tornar a començar cada vegada que el flabiol fa la primera nota.
+        </p>
+      </header>
 
-      <section className="historyOpening sectionPad"><div className="bigYear" aria-hidden="true">1929</div><div className="openingText"><p className="eyebrow">El començament</p><h2>D’una iniciativa familiar a una cobla amb horitzó de país.</h2><p>La Principal del Llobregat va néixer a Cornellà de Llobregat de la mà de Dídac Vilà i Moragues, amb músics sortits de l’Orquestra L’Artística Llobregatana. El seu fill, Jaume Vilà i Mèlich —Javimel—, va consolidar la formació des del primer tible; a partir de 1968, el nét Josep Vilà i Figueras en va prendre el relleu com a director i representant.</p><p>Gairebé cent anys després, la cobla continua fent créixer aquell llegat amb repertori, enregistraments, viatges i projectes compartits.</p></div></section>
+      <section className="historyOpening sectionPad">
+        <div className="bigYear" aria-hidden="true">1929</div>
+        <div className="openingText">
+          <p className="eyebrow">El començament</p>
+          <h2>D’una iniciativa familiar a una cobla amb horitzó de país.</h2>
+          <p>
+            La Principal del Llobregat va néixer a Cornellà de Llobregat de la mà de Dídac Vilà i Moragues, amb músics sortits de l’Orquestra L’Artística Llobregatana. El seu fill, Jaume Vilà i Mèlich —Javimel—, va consolidar la formació des del primer tible; a partir de 1968, el nét Josep Vilà i Figueras en va prendre el relleu com a director i representant.
+          </p>
+          <p>
+            Gairebé cent anys després, la cobla continua fent créixer aquell llegat amb repertori, enregistraments, viatges i projectes compartits.
+          </p>
+        </div>
+      </section>
 
       <section className="timeline sectionPad" aria-label="Cronologia de La Principal del Llobregat">
-        {milestones.map((item, index) => <article className="timelineItem" key={item.year}><span className="timelineIndex">{String(index + 1).padStart(2, "0")}</span><time>{item.year}</time><div><h2>{item.title}</h2><p>{item.text}</p></div></article>)}
+        {milestones.map((item, index) => (
+          <article className="timelineItem" key={item.year}>
+            <span className="timelineIndex">{String(index + 1).padStart(2, "0")}</span>
+            <time>{item.year}</time>
+            <div>
+              <h2>{item.title}</h2>
+              <p>{item.text}</p>
+            </div>
+          </article>
+        ))}
       </section>
 
       <section className="historyArchive sectionPad" aria-labelledby="arxiu-title">
@@ -87,10 +123,7 @@ export default function HistoriaPage() {
             <h2 id="arxiu-title">Gairebé un segle<br /><em>en imatges.</em></h2>
           </div>
           <p>
-            Les {archivePhotos.length} fotografies del fons documental <em>Cobles,
-            orquestres i músics de Catalunya</em>, dels anys trenta fins a l’aplec
-            d’Encamp del 2017. Cada imatge conserva el crèdit de l’arxiu d’origen
-            i, quan se’n coneixen, els noms dels músics que hi surten.
+            Les {archivePhotos.length} fotografies del fons documental <em>Cobles, orquestres i músics de Catalunya</em>, dels anys trenta fins a l’aplec d’Encamp del 2017. Cada imatge conserva el crèdit de l’arxiu d’origen i, quan se’n coneixen, els noms dels músics que hi surten.
           </p>
         </div>
 
@@ -103,7 +136,7 @@ export default function HistoriaPage() {
         </div>
         <div className="historyPortraitFrame">
           <Image
-            src="/historia/formacio-actual.jpg"
+            src={sitePath("/historia/formacio-actual.jpg")}
             alt="Els intèrprets de La Principal del Llobregat amb els seus instruments"
             width={1500}
             height={742}
@@ -123,33 +156,67 @@ export default function HistoriaPage() {
             <h2 id="history-map-title">Una història<br /><em>sobre el territori.</em></h2>
           </div>
           <p>
-            Explora les actuacions conservades al calendari de La Llobregat.
-            Tria un any i clica qualsevol punt per descobrir on hem tocat.
+            Explora les actuacions conservades al calendari de La Llobregat. Tria un any i clica qualsevol punt per descobrir on hem tocat.
           </p>
         </div>
         <HistoryMap events={historyEvents} mapSrc={sitePath("/catalunya-mapa-complet.png")} />
       </section>
 
       <section className="namesSection sectionPad">
-        <p className="eyebrow light">Direccions i complicitats</p><h2>Una trajectòria feta<br />de moltes mirades.</h2>
-        <p>La cobla ha treballat sota la batuta de mestres com Antoni Ros-Marbà, Salvador Brotons, Alfred Cañamero, Joan Lluís Moraleda, Jordi León, Francesc Benítez, Daniel Antolí i Marcel Sabaté. També ha compartit escenari amb formacions corals i instrumentals, i ha acompanyat els grans esbarts dansaires del país.</p>
-        <div className="nameCloud" aria-label="Col·laboradors destacats"><span>Companyia Elèctrica Dharma</span><span>Miguel Poveda</span><span>Emma Stratton</span><span>Quartet Mèlt</span><span>Guillem Batllori</span><span>Orfeó Català</span><span>Cor Lieder Càmera</span><span>Cobla Sant Jordi — Ciutat de Barcelona</span><span>Esbart Dansaire de Rubí</span></div>
+        <p className="eyebrow light">Direccions i complicitats</p>
+        <h2>Una trajectòria feta<br />de moltes mirades.</h2>
+        <p>
+          La cobla ha treballat sota la batuta de mestres com Antoni Ros-Marbà, Salvador Brotons, Alfred Cañamero, Joan Lluís Moraleda, Jordi León, Francesc Benítez, Daniel Antolí i Marcel Sabaté. També ha compartit escenari amb formacions corals i instrumentals, i ha acompanyat els grans esbarts dansaires del país.
+        </p>
+        <div className="nameCloud" aria-label="Col·laboradors destacats">
+          <span>Companyia Elèctrica Dharma</span>
+          <span>Miguel Poveda</span>
+          <span>Emma Stratton</span>
+          <span>Quartet Mèlt</span>
+          <span>Guillem Batllori</span>
+          <span>Orfeó Català</span>
+          <span>Cor Lieder Càmera</span>
+          <span>Cobla Sant Jordi — Ciutat de Barcelona</span>
+          <span>Esbart Dansaire de Rubí</span>
+        </div>
       </section>
 
       <section className="sourcesSection sectionPad">
-        <div><p className="eyebrow">Per saber-ne més</p><h2>Fonts i memòria.</h2></div>
-        <div className="sourceLinks"><a href={sitePath("/multimedia/biografia-la-principal-del-llobregat.pdf")} download>Biografia de la cobla <span>↓</span></a><a href={blogPostUrl} target="_blank" rel="noreferrer">Fons documental · La Principal del Llobregat <span>↗</span></a><a href="https://ca.wikipedia.org/wiki/La_Principal_del_Llobregat" target="_blank" rel="noreferrer">Viquipèdia <span>↗</span></a><a href="https://www.palaumusica.cat/1096647" target="_blank" rel="noreferrer">Palau de la Música Catalana <span>↗</span></a><a href="https://www.enciclopedia.cat/ec-gec-0019925.xml" target="_blank" rel="noreferrer">Enciclopèdia Catalana <span>↗</span></a></div>
+        <div>
+          <p className="eyebrow">Per saber-ne més</p>
+          <h2>Fonts i memòria.</h2>
+        </div>
+        <div className="sourceLinks">
+          <a href={sitePath("/multimedia/biografia-la-principal-del-llobregat.pdf")} download>
+            Biografia de la cobla <span>↓</span>
+          </a>
+          <a href={blogPostUrl} target="_blank" rel="noreferrer">
+            Fons documental · La Principal del Llobregat <span>↗</span>
+          </a>
+          <a href="https://ca.wikipedia.org/wiki/La_Principal_del_Llobregat" target="_blank" rel="noreferrer">
+            Viquipèdia <span>↗</span>
+          </a>
+          <a href="https://www.palaumusica.cat/1096647" target="_blank" rel="noreferrer">
+            Palau de la Música Catalana <span>↗</span>
+          </a>
+          <a href="https://www.enciclopedia.cat/ec-gec-0019925.xml" target="_blank" rel="noreferrer">
+            Enciclopèdia Catalana <span>↗</span>
+          </a>
+        </div>
         <p className="sourcesCredit">
-          Les fotografies històriques i bona part de les dades d’aquesta pàgina
-          provenen del fons documental <em>Cobles, orquestres i músics de
-          Catalunya</em>, publicades amb permís del seu autor.{" "}
+          Les fotografies històriques i bona part de les dades d’aquesta pàgina provenen del fons documental <em>Cobles, orquestres i músics de Catalunya</em>, publicades amb permís del seu autor.{" "}
           <a href={blogUrl} target="_blank" rel="noreferrer">
             Vols saber més de la història de les diferents cobles? <span aria-hidden="true">↗</span>
           </a>
         </p>
       </section>
 
-      <section className="historyCta"><p>La història continua a la pròxima plaça.</p><a className="button lightButton" href={sitePath("/agenda")}>Veure l’agenda <span>↗</span></a></section>
+      <section className="historyCta">
+        <p>La història continua a la pròxima plaça.</p>
+        <a className="button lightButton" href={sitePath("/agenda")}>
+          Veure l’agenda <span>↗</span>
+        </a>
+      </section>
     </main>
   );
 }

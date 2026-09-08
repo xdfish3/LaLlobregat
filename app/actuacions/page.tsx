@@ -41,7 +41,7 @@ const proposals = [
   },
   {
     kicker: "Tenora, veu i cobla",
-    title: "Jordi Molina, Música per a cobla",
+    title: "Jordi Molina, Música per cobla",
     text: "Una nova proposta conjuntament amb el prestigiós i reconegut tenorista Jordi Molina, el quartet Cypsela i les veus solistes de Júlia Molina i Eva Trullàs, que mostra tota la diversitat de la música de cobla.",
     detail:
       "L'espectacle lliga gèneres poc habituals com la veu i la cobla, amb obres escrites pel mateix Jordi Molina o arranjaments per a quartet i cobla de grans compositors. Una oportunitat única, d'uns 90 minuts, per descobrir una combinació de gèneres gens habitual.",

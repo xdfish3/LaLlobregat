@@ -23,6 +23,34 @@ const proposals = [
       "Del repertori clàssic als compositors contemporanis, cada concert és una oportunitat per descobrir una formació arrelada a la tradició i plenament oberta a noves sonoritats.",
   },
   {
+    kicker: "Espectacle amb narració",
+    title: "Mil i una nits amb la Llobregat",
+    text: "Un espectacle que entrellaça la brillant història de la princesa Xahrazad amb el so de la cobla. Amb la complicitat d’una actriu o actor, tres dels contes més coneguts de les Mil i una nits —Alí Babà, Aladí i Sinbad— prenen vida sobre l’escenari.",
+    detail:
+      "L’espectacle aglutina sonoritats orientals amb el so característic de la Llobregat, establint ponts entre passat i present, orient i occident, el clàssic i la cobla. Una combinació de música i narrativa d’uns 70 minuts de durada que no deixa ningú indiferent.",
+    videos: [
+      {
+        title: "Teaser",
+        file: "/multimedia/1001-nits-teaser.mp4",
+      },
+    ],
+    dossier: {
+      title: "Document de l'espectacle",
+      file: "/multimedia/dossier-1001-nits.pdf",
+    },
+  },
+  {
+    kicker: "Tenora, veu i cobla",
+    title: "Jordi Molina, Música per cobla",
+    text: "Una nova proposta conjuntament amb el prestigiós i reconegut tenorista Jordi Molina, el quartet Cypsela i les veus solistes de Júlia Molina i Eva Trullàs, que mostra tota la diversitat de la música de cobla.",
+    detail:
+      "L’espectacle lliga gèneres poc habituals com la veu i la cobla, amb obres escrites pel mateix Jordi Molina i arranjaments per a quartet i cobla de grans compositors. Una oportunitat única, d’uns 90 minuts, per descobrir una combinació de gèneres gens habitual.",
+    dossier: {
+      title: "Document de l'espectacle",
+      file: "/multimedia/dossier-jordi-molina-musica-per-a-cobla.pdf",
+    },
+  },
+  {
     kicker: "Veu i cobla",
     title: "Col·laboració Quartet Mèlt",
     text: "La Llobregat i els Mèlt uneix el so de la cobla amb les quatre veus del Quartet Mèlt. Un espectacle d’uns noranta minuts que travessa gèneres poc habituals en aquesta formació, amb repertori propi del quartet i arranjaments de Jordi Molina.",
@@ -144,7 +172,7 @@ export default function ActuacionsPage() {
                       <div key={vid.file} style={{ display: "flex", flexDirection: "column", gap: "0.5rem" }}>
                         {vid.title ? <span style={{ fontWeight: 600, fontSize: "0.9rem" }}>{vid.title}:</span> : null}
                         <div style={{ display: "flex", flexWrap: "wrap", gap: "1rem", alignItems: "center" }}>
-                          <a
+                          
                             href={sitePath(vid.file)}
                             target="_blank"
                             rel="noreferrer"
@@ -152,7 +180,7 @@ export default function ActuacionsPage() {
                           >
                             VEURE VÍDEO
                           </a>
-                          <a
+                          
                             href={sitePath(vid.file)}
                             download
                             style={buttonStyle}
@@ -169,7 +197,7 @@ export default function ActuacionsPage() {
                   <div style={{ marginTop: "1.5rem", display: "flex", flexDirection: "column", gap: "0.5rem" }}>
                     <span style={{ fontWeight: 600, fontSize: "0.9rem" }}>{proposal.dossier.title}:</span>
                     <div style={{ display: "flex", flexWrap: "wrap", gap: "1rem", alignItems: "center" }}>
-                      <a
+                      
                         href={sitePath(proposal.dossier.file)}
                         target="_blank"
                         rel="noreferrer"
@@ -177,7 +205,7 @@ export default function ActuacionsPage() {
                       >
                         VEURE DOCUMENT
                       </a>
-                      <a
+                      
                         href={sitePath(proposal.dossier.file)}
                         download
                         style={buttonStyle}

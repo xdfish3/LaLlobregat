@@ -23,15 +23,15 @@ type HistoryGroup = {
   events: HistoryEvent[];
 };
 
-export function HistoryMap({ events, mapSrc }: { events: HistoryEvent[]; mapSrc: string }) {
-  const years = useMemo(
-    () => [...new Set(events.map((event) => event.dateTime.slice(0, 4)))].sort((a, b) => b.localeCompare(a)),
-    [events],
-  );
+export function HistoryMap({ events = [], mapSrc }: { events?: HistoryEvent[]; mapSrc: string }) {
+  const [isMounted, setIsMounted] = useState(false);
   const [selectedYear, setSelectedYear] = useState("all");
   const [selectedKey, setSelectedKey] = useState<string | null>(null);
 
-  // Tanca la finestra d'informació prement Escape
+  useEffect(() => {
+    setIsMounted(true);
+  }, []);
+
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
       if (e.key === "Escape") setSelectedKey(null);
@@ -40,17 +40,23 @@ export function HistoryMap({ events, mapSrc }: { events: HistoryEvent[]; mapSrc:
     return () => window.removeEventListener("keydown", handleKeyDown);
   }, []);
 
-  const visibleEvents = useMemo(
-    () => selectedYear === "all"
+  const years = useMemo(() => {
+    if (!Array.isArray(events)) return [];
+    return [...new Set(events.map((event) => event.dateTime?.slice(0, 4) || ""))].filter(Boolean).sort((a, b) => b.localeCompare(a));
+  }, [events]);
+
+  const visibleEvents = useMemo(() => {
+    if (!Array.isArray(events)) return [];
+    return selectedYear === "all"
       ? events
-      : events.filter((event) => event.dateTime.startsWith(selectedYear)),
-    [events, selectedYear],
-  );
+      : events.filter((event) => event.dateTime?.startsWith(selectedYear));
+  }, [events, selectedYear]);
 
   const groups = useMemo(() => {
     const grouped = new Map<string, HistoryGroup>();
 
     for (const event of visibleEvents) {
+      if (!event.mapPosition) continue;
       const key = `${event.mapPosition.left}-${event.mapPosition.top}`;
       const group = grouped.get(key);
       if (group) group.events.push(event);
@@ -59,12 +65,15 @@ export function HistoryMap({ events, mapSrc }: { events: HistoryEvent[]; mapSrc:
 
     return [...grouped.values()].map((group) => ({
       ...group,
-      events: group.events.sort((a, b) => b.dateTime.localeCompare(a.dateTime)),
+      events: group.events.sort((a, b) => (b.dateTime || "").localeCompare(a.dateTime || "")),
     }));
   }, [visibleEvents]);
 
+  // Si encara no està muntat al navegador, evitem la renderització per no tancar el build
+  if (!isMounted) return null;
+
   const selectedGroup = groups.find((group) => group.key === selectedKey);
-  const firstYear = years.length > 0 ? years.at(-1) : null;
+  const firstYear = years.length > 0 ? years[years.length - 1] : null;
   const lastYear = years.length > 0 ? years[0] : null;
 
   return (
@@ -88,12 +97,19 @@ export function HistoryMap({ events, mapSrc }: { events: HistoryEvent[]; mapSrc:
             }}
           >
             <option value="all">Tots els anys</option>
-            {years.map((year) => <option value={year} key={year}>{year}</option>)}
+            {years.map((year) => (
+              <option value={year} key={year}>
+                {year}
+              </option>
+            ))}
           </select>
         </label>
       </div>
 
-      <div className="agendaCataloniaMap historyCataloniaMap" aria-label={`Mapa històric de La Principal del Llobregat · ${selectedYear === "all" ? "tots els anys" : selectedYear}`}>
+      <div
+        className="agendaCataloniaMap historyCataloniaMap"
+        aria-label={`Mapa històric de La Principal del Llobregat · ${selectedYear === "all" ? "tots els anys" : selectedYear}`}
+      >
         <Image
           className="agendaFixedMapImage"
           src={mapSrc}
@@ -121,13 +137,24 @@ export function HistoryMap({ events, mapSrc }: { events: HistoryEvent[]; mapSrc:
 
         {selectedGroup ? (
           <aside className="agendaMapInfo historyMapInfo" aria-live="polite">
-            <button className="agendaMapInfoClose" type="button" aria-label="Tanca la informació" onClick={() => setSelectedKey(null)}>×</button>
+            <button
+              className="agendaMapInfoClose"
+              type="button"
+              aria-label="Tanca la informació"
+              onClick={() => setSelectedKey(null)}
+            >
+              ×
+            </button>
             <p>{selectedGroup.town}</p>
-            <h3>{selectedGroup.events.length} {selectedGroup.events.length === 1 ? "actuació" : "actuacions"}</h3>
+            <h3>
+              {selectedGroup.events.length} {selectedGroup.events.length === 1 ? "actuació" : "actuacions"}
+            </h3>
             <div className="historyMapEventList">
               {selectedGroup.events.slice(0, 6).map((event) => (
                 <div key={event.id}>
-                  <time dateTime={event.dateTime}>{event.day} {event.month} {event.dateTime.slice(0, 4)}</time>
+                  <time dateTime={event.dateTime}>
+                    {event.day} {event.month} {event.dateTime?.slice(0, 4)}
+                  </time>
                   <strong>{event.title}</strong>
                   <span>{event.place}</span>
                 </div>
@@ -142,8 +169,16 @@ export function HistoryMap({ events, mapSrc }: { events: HistoryEvent[]; mapSrc:
         ) : null}
 
         <div className="agendaMapCredits">
-          <a href="https://commons.wikimedia.org/wiki/File:Mapa_de_localitzaci%C3%B3_a_les_comarques_catalanes.svg" target="_blank" rel="noopener noreferrer">Mapa · Wikimedia Commons</a>
-          <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">Coordenades · OpenStreetMap</a>
+          <a
+            href="https://commons.wikimedia.org/wiki/File:Mapa_de_localitzaci%C3%B3_a_les_comarques_catalanes.svg"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Mapa · Wikimedia Commons
+          </a>
+          <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">
+            Coordenades · OpenStreetMap
+          </a>
         </div>
       </div>
     </div>

@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 
 type HistoryEvent = {
   id: string;
@@ -31,6 +31,15 @@ export function HistoryMap({ events, mapSrc }: { events: HistoryEvent[]; mapSrc:
   const [selectedYear, setSelectedYear] = useState("all");
   const [selectedKey, setSelectedKey] = useState<string | null>(null);
 
+  // Tanca la finestra d'informació prement Escape
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === "Escape") setSelectedKey(null);
+    };
+    window.addEventListener("keydown", handleKeyDown);
+    return () => window.removeEventListener("keydown", handleKeyDown);
+  }, []);
+
   const visibleEvents = useMemo(
     () => selectedYear === "all"
       ? events
@@ -55,8 +64,8 @@ export function HistoryMap({ events, mapSrc }: { events: HistoryEvent[]; mapSrc:
   }, [visibleEvents]);
 
   const selectedGroup = groups.find((group) => group.key === selectedKey);
-  const firstYear = years.at(-1);
-  const lastYear = years[0];
+  const firstYear = years.length > 0 ? years.at(-1) : null;
+  const lastYear = years.length > 0 ? years[0] : null;
 
   return (
     <div className="historyMapExperience">
@@ -128,10 +137,13 @@ export function HistoryMap({ events, mapSrc }: { events: HistoryEvent[]; mapSrc:
           </aside>
         ) : null}
 
-        <div className="agendaMapLabel">Memòria · {firstYear}—{lastYear}</div>
+        {firstYear && lastYear ? (
+          <div className="agendaMapLabel">Memòria · {firstYear}—{lastYear}</div>
+        ) : null}
+
         <div className="agendaMapCredits">
-          <a href="https://commons.wikimedia.org/wiki/File:Mapa_de_localitzaci%C3%B3_a_les_comarques_catalanes.svg" target="_blank" rel="noreferrer">Mapa · Wikimedia Commons</a>
-          <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noreferrer">Coordenades · OpenStreetMap</a>
+          <a href="https://commons.wikimedia.org/wiki/File:Mapa_de_localitzaci%C3%B3_a_les_comarques_catalanes.svg" target="_blank" rel="noopener noreferrer">Mapa · Wikimedia Commons</a>
+          <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">Coordenades · OpenStreetMap</a>
         </div>
       </div>
     </div>

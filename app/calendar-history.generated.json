@@ -1,5 +1,23 @@
 [
   {
+    "id": "calendar-6ptl4elma60kgmr6gk2rborlq3-google-com-2026-09-10-17-00-00-000-",
+    "day": "10",
+    "month": "SET.",
+    "dateTime": "2026-09-10T17:00:00.000Z",
+    "title": "Ballada-Calafell",
+    "place": "Plaça del Manila",
+    "town": "Calafell",
+    "time": "19.00 h",
+    "type": "Sardanes",
+    "source": "https://calendar.google.com/calendar/event?eid=NnB0bDRlbG1hNjBrZ21yNmdrMnJib3JscTMgbGFsbG9icmVnYXRAZ21haWwuY29t",
+    "monthKey": "2026-09",
+    "monthLabel": "Setembre 2026",
+    "mapPosition": {
+      "left": "42.30%",
+      "top": "65.85%"
+    }
+  },
+  {
     "id": "calendar-6gagkedg83f111cj2mf702k4jc-google-com-2026-09-08-10-30-00-000-",
     "day": "08",
     "month": "SET.",

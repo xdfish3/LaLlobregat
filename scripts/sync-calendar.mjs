@@ -97,24 +97,35 @@ function eventType(summary) {
   return "Sardanes";
 }
 
-// PERMERA OPCIÓ: Agafa la ubicació de Google Calendar
 function eventTown(summary, location) {
-  if (location) {
-    const parts = location.split(",");
-    // Si hi ha municipi/província separats per comes, intentem agafar el municipi
-    if (parts.length > 1) {
-      return parts[parts.length - 2].trim() || parts[0].trim();
-    }
-    return parts[0].trim();
+  // 1. Si el títol conté el nom del poble després d'un guió (ex: "Acte Institucional-Rubí")
+  if (summary.includes("-")) {
+    const afterHyphen = summary.split("-").slice(1).join("-").trim();
+    if (afterHyphen) return afterHyphen;
   }
 
-  // Si no hi ha camp de localització, neteja el títol
-  const cleaned = summary
-    .replace(/^(concertàs|concert|mèlt|coco|sardanes?|ballada|audició)\s*[-:·]?\s+/i, "")
-    .replace(/\s*\([^)]*\)\s*$/g, "")
-    .trim();
+  // 2. Si hi ha adreça de Google Calendar
+  if (location && location.trim().length > 0) {
+    const parts = location.split(",").map((p) => p.trim());
+    for (const part of parts) {
+      // Extreu el nom del municipi saltant-se el codi postal (ex: "08191 Rubí" -> "Rubí")
+      const candidate = part.replace(/^\d{5}\s*/, "").trim();
+      if (
+        candidate &&
+        !/Espanya|Spain|Barcelona|Girona|Lleida|Tarragona/i.test(candidate) &&
+        !/Plaça|Carrer|Avinguda|Pl\.|C\/|Parc/i.test(candidate)
+      ) {
+        return candidate;
+      }
+    }
+    if (parts.length >= 2) return parts[parts.length - 2].replace(/^\d{5}\s*/, "").trim();
+  }
 
-  return cleaned || summary.trim();
+  // 3. Neteja el títol com a alternativa final
+  return summary
+    .replace(/^(concertàs|concert|mèlt|coco|sardanes?|ballada|audició|acte\s+institucional)\s*[-:·]?\s*/i, "")
+    .replace(/\s*\([^)]*\)\s*$/g, "")
+    .trim() || summary.trim();
 }
 
 function normalizeText(value) {
@@ -207,7 +218,6 @@ async function geocode(query, cache, lastRequest) {
         ? candidate
         : null;
     cache[query] = coordinates;
-    console.log(coordinates ? `Ubicació trobada: ${query}` : `Ubicació no trobada: ${query}`);
     return { coordinates, lastRequest: Date.now() };
   } catch (err) {
     console.warn(`Error en geocodificació (${query}):`, err.message);
@@ -284,13 +294,18 @@ async function synchronizeEvent(event) {
     resolvedTowns.set(townKey, resolvedTown);
   }
 
+  // Format exactament igual que la versió que funciona al teu web
+  const placeText = event.location
+    ? `${resolvedTown.town} · ${event.location.split(",")[0]}`
+    : resolvedTown.town;
+
   return {
     id: `calendar-${event.uid.replace(/[^a-z0-9]+/gi, "-").replace(/^-|-$/g, "")}-${event.dateTime.replace(/[^0-9]+/g, "-")}`,
     day: event.day,
     month: event.month,
     dateTime: event.dateTime,
     title: event.summary,
-    place: event.location ? event.location : "Ubicació no indicada",
+    place: placeText,
     town: resolvedTown.town,
     time: event.time,
     type: eventType(event.summary),

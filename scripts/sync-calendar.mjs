@@ -9,27 +9,20 @@ const cachePath = path.resolve("scripts/calendar-geocode-cache.json");
 const townCoordinatesPath = path.resolve("scripts/calendar-town-coordinates.json");
 const maximumEvents = 180;
 const geocodeDelay = Number(process.env.GEOCODE_DELAY_MS ?? 1200);
-// El mapa fix està dibuixat amb una projecció equirectangular lleugerament girada,
-// així que la latitud també desplaça l'eix horitzontal i la longitud el vertical.
-// Coeficients calibrats contra el contorn dibuixat de Catalunya (error ≈ 3 px sobre
-// els 1280 px de l'original).
+
 const mapProjection = {
   size: 1280,
   x: { lon: 320.27127, lat: -23.02574, offset: 987.69792 },
   y: { lon: -20.09757, lat: -429.77257, offset: 18581.47614 },
 };
-// Finestra geogràfica que cobreix el dibuix, per acotar el geocodificador.
+
 const cataloniaBounds = { west: -0.19, south: 40.08, east: 4.01, north: 43.24 };
 const monthNames = ["GEN.", "FEBR.", "MARÇ", "ABR.", "MAIG", "JUNY", "JUL.", "AG.", "SET.", "OCT.", "NOV.", "DES."];
 const monthNamesLong = ["Gener", "Febrer", "Març", "Abril", "Maig", "Juny", "Juliol", "Agost", "Setembre", "Octubre", "Novembre", "Desembre"];
+
 const knownPlaces = {
   "bufraganya": { lat: 41.48455, lon: 1.44838, town: "Sant Magí de Brufaganya" },
 };
-const ignoredTownNames = new Set([
-  "coco", "catedral", "enregistrament cd", "festa privada", "gravacio", "grabacio",
-  "mati", "ocupat", "palau de la musica", "palau de la musica catalana", "petit palau",
-  "sants", "sgae", "tarda", "madrid",
-]);
 
 function unfoldIcs(source) {
   return source.replace(/\r?\n[ \t]/g, "");
@@ -104,12 +97,24 @@ function eventType(summary) {
   return "Sardanes";
 }
 
+// PERMERA OPCIÓ: Agafa la ubicació de Google Calendar
 function eventTown(summary, location) {
+  if (location) {
+    const parts = location.split(",");
+    // Si hi ha municipi/província separats per comes, intentem agafar el municipi
+    if (parts.length > 1) {
+      return parts[parts.length - 2].trim() || parts[0].trim();
+    }
+    return parts[0].trim();
+  }
+
+  // Si no hi ha camp de localització, neteja el títol
   const cleaned = summary
     .replace(/^(concertàs|concert|mèlt|coco|sardanes?|ballada|audició)\s*[-:·]?\s+/i, "")
     .replace(/\s*\([^)]*\)\s*$/g, "")
     .trim();
-  return cleaned || location.split(",")[0].trim();
+
+  return cleaned || summary.trim();
 }
 
 function normalizeText(value) {
@@ -127,10 +132,7 @@ function eventQueries(town, location) {
   if (knownPlace) return { knownPlace, queries: [] };
 
   const queries = [];
-  if (location) {
-    const includesTown = normalizeText(location).includes(normalizedTown);
-    queries.push(includesTown ? location : `${location}, ${town}`);
-  }
+  if (location) queries.push(location);
   queries.push(`${town}, Catalunya`);
   queries.push(town);
   return { knownPlace: null, queries: [...new Set(queries)] };
@@ -172,40 +174,45 @@ async function geocode(query, cache, lastRequest) {
     await new Promise((resolve) => setTimeout(resolve, geocodeDelay - elapsed));
   }
 
-  const parameters = new URLSearchParams({
-    q: query,
-    format: "jsonv2",
-    limit: "5",
-    countrycodes: "es,fr,ad",
-    addressdetails: "1",
-    viewbox: `${cataloniaBounds.west},${cataloniaBounds.north},${cataloniaBounds.east},${cataloniaBounds.south}`,
-    bounded: "1",
-  });
-  const response = await fetch(`https://nominatim.openstreetmap.org/search?${parameters}`, {
-    headers: {
-      "Accept-Language": "ca",
-      "User-Agent": "LaPrincipalDelLlobregatCalendarSync/1.0 (https://github.com/llorebaga/LaLlobregat)",
-    },
-  });
-  if (!response.ok) throw new Error(`La geocodificació ha respost ${response.status}`);
+  try {
+    const parameters = new URLSearchParams({
+      q: query,
+      format: "jsonv2",
+      limit: "5",
+      countrycodes: "es,fr,ad",
+      addressdetails: "1",
+      viewbox: `${cataloniaBounds.west},${cataloniaBounds.north},${cataloniaBounds.east},${cataloniaBounds.south}`,
+      bounded: "1",
+    });
+    const response = await fetch(`https://nominatim.openstreetmap.org/search?${parameters}`, {
+      headers: {
+        "Accept-Language": "ca",
+        "User-Agent": "LaPrincipalDelLlobregatCalendarSync/1.0 (https://github.com/llorebaga/LaLlobregat)",
+      },
+    });
+    if (!response.ok) throw new Error(`La geocodificació ha respost ${response.status}`);
 
-  const results = await response.json();
-  const result = results.find((candidate) => {
-    if (["natural", "highway", "railway", "waterway"].includes(candidate.category)) return false;
-    if (["peak", "ridge", "river", "reservoir", "station", "halt", "stop"].includes(candidate.type)) return false;
-    return true;
-  }) ?? results[0];
-  const candidate = result ? { lat: Number(result.lat), lon: Number(result.lon) } : null;
-  const coordinates = candidate
-    && candidate.lat >= cataloniaBounds.south
-    && candidate.lat <= cataloniaBounds.north
-    && candidate.lon >= cataloniaBounds.west
-    && candidate.lon <= cataloniaBounds.east
-      ? candidate
-      : null;
-  cache[query] = coordinates;
-  console.log(coordinates ? `Ubicació trobada: ${query}` : `Ubicació no trobada: ${query}`);
-  return { coordinates, lastRequest: Date.now() };
+    const results = await response.json();
+    const result = results.find((candidate) => {
+      if (["natural", "highway", "railway", "waterway"].includes(candidate.category)) return false;
+      if (["peak", "ridge", "river", "reservoir", "station", "halt", "stop"].includes(candidate.type)) return false;
+      return true;
+    }) ?? results[0];
+    const candidate = result ? { lat: Number(result.lat), lon: Number(result.lon) } : null;
+    const coordinates = candidate
+      && candidate.lat >= cataloniaBounds.south
+      && candidate.lat <= cataloniaBounds.north
+      && candidate.lon >= cataloniaBounds.west
+      && candidate.lon <= cataloniaBounds.east
+        ? candidate
+        : null;
+    cache[query] = coordinates;
+    console.log(coordinates ? `Ubicació trobada: ${query}` : `Ubicació no trobada: ${query}`);
+    return { coordinates, lastRequest: Date.now() };
+  } catch (err) {
+    console.warn(`Error en geocodificació (${query}):`, err.message);
+    return { coordinates: null, lastRequest: Date.now() };
+  }
 }
 
 const response = await fetch(calendarFeed);
@@ -247,26 +254,14 @@ const synchronizedEvents = [];
 const synchronizedHistoryEvents = [];
 const resolvedTowns = new Map();
 
-function findTownInsideTitle(townKey) {
-  const searchableTitle = ` ${townKey.replace(/[^a-z0-9]+/g, " ").trim()} `;
-  const matches = [...resolvedTowns.entries()].filter(([key]) => {
-    if (ignoredTownNames.has(key) || key.length < 4) return false;
-    const searchableKey = ` ${key.replace(/[^a-z0-9]+/g, " ").trim()} `;
-    return searchableTitle.includes(searchableKey);
-  });
-
-  return matches.sort(([first], [second]) => second.length - first.length)[0]?.[1] ?? null;
-}
-
-async function synchronizeEvent(event, includeLocation) {
+async function synchronizeEvent(event) {
   const originalTown = eventTown(event.summary, event.location);
-  if (!originalTown) return null;
   const townKey = normalizeText(originalTown);
-  if (ignoredTownNames.has(townKey)) return null;
-  let resolvedTown = resolvedTowns.get(townKey) ?? findTownInsideTitle(townKey);
+  
+  let resolvedTown = resolvedTowns.get(townKey);
 
   if (!resolvedTown) {
-    const { knownPlace, queries } = eventQueries(originalTown, includeLocation ? event.location : "");
+    const { knownPlace, queries } = eventQueries(originalTown, event.location);
     const verifiedPlace = townCoordinates[townKey];
     let coordinates = verifiedPlace
       ? { lat: verifiedPlace.lat, lon: verifiedPlace.lon }
@@ -281,15 +276,10 @@ async function synchronizeEvent(event, includeLocation) {
       coordinates = geocoded.coordinates;
     }
 
-    if (!coordinates) {
-      console.warn(`Sense coordenades: ${event.summary}`);
-      return null;
-    }
-
     resolvedTown = {
       town: verifiedPlace?.town ?? knownPlace?.town ?? originalTown,
-      coordinates,
-      mapPosition: mapPosition(coordinates.lat, coordinates.lon),
+      coordinates: coordinates ?? null,
+      mapPosition: coordinates ? mapPosition(coordinates.lat, coordinates.lon) : { left: "0%", top: "0%" },
     };
     resolvedTowns.set(townKey, resolvedTown);
   }
@@ -300,7 +290,7 @@ async function synchronizeEvent(event, includeLocation) {
     month: event.month,
     dateTime: event.dateTime,
     title: event.summary,
-    place: event.location ? event.location.split(",")[0].trim() : "Ubicació no indicada al calendari",
+    place: event.location ? event.location : "Ubicació no indicada",
     town: resolvedTown.town,
     time: event.time,
     type: eventType(event.summary),
@@ -312,12 +302,12 @@ async function synchronizeEvent(event, includeLocation) {
 }
 
 for (const event of parsedEvents) {
-  const synchronizedEvent = await synchronizeEvent(event, true);
+  const synchronizedEvent = await synchronizeEvent(event);
   if (synchronizedEvent) synchronizedEvents.push(synchronizedEvent);
 }
 
 for (const event of parsedHistoryEvents) {
-  const synchronizedEvent = await synchronizeEvent(event, false);
+  const synchronizedEvent = await synchronizeEvent(event);
   if (synchronizedEvent) synchronizedHistoryEvents.push(synchronizedEvent);
 }
 
@@ -325,7 +315,7 @@ const synchronizedHistoryIds = new Set(synchronizedHistoryEvents.map((event) => 
 for (const event of parsedHistoryEvents) {
   const eventId = `calendar-${event.uid.replace(/[^a-z0-9]+/gi, "-").replace(/^-|-$/g, "")}-${event.dateTime.replace(/[^0-9]+/g, "-")}`;
   if (synchronizedHistoryIds.has(eventId)) continue;
-  const synchronizedEvent = await synchronizeEvent(event, false);
+  const synchronizedEvent = await synchronizeEvent(event);
   if (synchronizedEvent) {
     synchronizedHistoryEvents.push(synchronizedEvent);
     synchronizedHistoryIds.add(synchronizedEvent.id);

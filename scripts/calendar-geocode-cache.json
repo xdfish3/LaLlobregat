@@ -2528,5 +2528,673 @@
   "Llerona": {
     "lat": 41.648239,
     "lon": 2.2987482
+  },
+  "Parc de Pere Bufí i Pérez, Avinguda de Santiga, 2, 08130 Santa Perpètua de Mogoda, Barcelona, Espanya": null,
+  "2, Catalunya": {
+    "lat": 41.5126318,
+    "lon": 2.1934354
+  },
+  "24B, Catalunya": {
+    "lat": 40.8391879,
+    "lon": 0.4981971
+  },
+  "Carretera de Terrassa, 31, 08230 Matadepera, Barcelona, Espanya": {
+    "lat": 41.5942317,
+    "lon": 2.023997
+  },
+  "Ajuntament de Roda de Berà, Catalunya": {
+    "lat": 41.186009,
+    "lon": 1.4568469
+  },
+  "Ajuntament de la Bisbal d'Empordà, Catalunya": {
+    "lat": 41.9590145,
+    "lon": 3.0377669
+  },
+  "Pati del Palau dels Comtes, Catalunya": null,
+  "Pati del Palau dels Comtes": null,
+  "Passeig del Mar, Pg. del Mar, 17220 Sant Feliu de Guíxols, Girona, Espanya": {
+    "lat": 41.7811781,
+    "lon": 3.0308567
+  },
+  "Casal de Cultura de Matadepera, Carrer de Pere Aldavert, 4, 08230 Matadepera, Barcelona, Espanya": null,
+  "Casal de Cultura de Matadepera, Catalunya": {
+    "lat": 41.5994759,
+    "lon": 2.0282745
+  },
+  "Casino de Rubí, Plaça de Catalunya, 08191 Rubí, Barcelona, Espanya": null,
+  "Casino de Rubí, Catalunya": null,
+  "Casino de Rubí": null,
+  "Plaça de la Sardana, Carrer de Josep Anselm Clavé, 169, 08640 Olesa de Montserrat, Barcelona, Espanya": null,
+  "169, Catalunya": {
+    "lat": 40.8177615,
+    "lon": 0.5407416
+  },
+  "Pla del Mestre, 08540 Centelles, Barcelona, Espanya": {
+    "lat": 41.7943753,
+    "lon": 2.2206938
+  },
+  "Can Puget - Casa de Cultura, Plaça de Dalt de la Vila, 3, 08560 Manlleu, Barcelona, Espanya": null,
+  "Can Puget - Casa de Cultura, Catalunya": null,
+  "Can Puget - Casa de Cultura": null,
+  "Ajuntament d'Argelaguer, Carrer Major, 91, 17853 Argelaguer, Girona, Espanya": null,
+  "Ajuntament d'Argelaguer, Catalunya": {
+    "lat": 42.2157443,
+    "lon": 2.6377732
+  },
+  "Museu Castell de Rubí, Carrer del Castell, 35, 08191 Rubí, Barcelona, Espanya": null,
+  "Museu Castell de Rubí, Catalunya": null,
+  "Museu Castell de Rubí": null,
+  "Plaça de Carles Pi i Sunyer, Ciutat Vella, 08002 Barcelona, Espanya": {
+    "lat": 41.3851727,
+    "lon": 2.1738655
+  },
+  "Casa Pairal Fundación Privada, Carrer del Rosari, 59, 08340 Vilassar de Mar, Barcelona, Espanya": null,
+  "Casa Pairal Fundación Privada, Catalunya": null,
+  "Casa Pairal Fundación Privada": null,
+  "Cafè L'Artesà, Carrer del Centre, 33, 08820 El Prat de Llobregat, Barcelona, Espanya": null,
+  "Cafè L'Artesà, Catalunya": {
+    "lat": 41.3295414,
+    "lon": 2.0954314
+  },
+  "Pati del Cafè Nou, Muralla de la Presó, 4-10, 08302 Mataró, Barcelona, Espanya": null,
+  "Pati del Cafè Nou, Catalunya": {
+    "lat": 41.5417616,
+    "lon": 2.4430342
+  },
+  "Parc de Can Mercader, Ctra. de l'Hospitalet, 78, 08940 Cornellà de Llobregat, Barcelona, Espanya": null,
+  "Ctra. de l'Hospitalet, Catalunya": {
+    "lat": 41.3574688,
+    "lon": 2.0893124
+  },
+  "Castell de Cornellà, Carrer de Mossèn Jacint Verdaguer, s/n, 08940 Cornellà de Llobregat, Barcelona, Espanya": null,
+  "Castell de Cornellà, Catalunya": {
+    "lat": 41.3539348,
+    "lon": 2.0715972
+  },
+  "Ateneu D'Accio Cultural (ADAC), Catalunya": null,
+  "Ateneu D'Accio Cultural (ADAC)": null,
+  "Parc Dalmau, Carrer de Sant Jaume, 269, 08370 Calella, Barcelona, Espanya": null,
+  "269, Catalunya": {
+    "lat": 40.8337064,
+    "lon": 0.5055238
+  },
+  "Parc de la Linera, Passeig de Joan Miró, 7, 08150 Parets del Vallès, Barcelona, Espanya": null,
+  "Passeig de Joan Miró, Catalunya": {
+    "lat": 41.5605107,
+    "lon": 2.0218434
+  },
+  "Plaça de l'Ajuntament, Plaça de I'Ajuntament, 5, 08370 Calella, Barcelona, Espanya": null,
+  "5, Catalunya": {
+    "lat": 41.4212511,
+    "lon": 2.1641639
+  },
+  "Plaça de la creu, Plaça la Creu, s/n, 08750 Molins de Rei, Barcelona, Espanya": null,
+  "s/n, Catalunya": {
+    "lat": 41.461899,
+    "lon": 2.1915133
+  },
+  "Fundació Privada Casino L'Aliança del Poblenou, Catalunya": null,
+  "Fundació Privada Casino L'Aliança del Poblenou": null,
+  "Ajuntament d'Alella, Plaça de l'Ajuntament, 1, 08328 Alella, Barcelona, Espanya": null,
+  "Ajuntament d'Alella, Catalunya": {
+    "lat": 41.4936152,
+    "lon": 2.2951838
+  },
+  "Sala Polivalent, Passatge dels Esports, 7, 08570 Torelló, Barcelona, Espanya": null,
+  "Sala Polivalent, Catalunya": {
+    "lat": 41.5700336,
+    "lon": 2.0935862
+  },
+  "Pavelló Municipal d'Esports Riera Seca, Ronda de Can Fàbregas, 1, 08100 Mollet del Vallès, Barcelona, Espanya": null,
+  "Pavelló Municipal d'Esports Riera Seca, Catalunya": {
+    "lat": 41.5378106,
+    "lon": 2.2173734
+  },
+  "Centre Cultural La Torreta, Carrer Folch i Torras, 2, 08160 Montmeló, Barcelona, Espanya": null,
+  "Centre Cultural La Torreta, Catalunya": null,
+  "Centre Cultural La Torreta": null,
+  "Ermita de Santa Maria de Bellvitge, Carrer de l'Ermita de Bellvitge, 6, 08907 L'Hospitalet de Llobregat, Barcelona, Espanya": {
+    "lat": 41.3474466,
+    "lon": 2.1097117
+  },
+  "Pavelló municipal de Besalú, Passeig Francesc Cambó, 4, 17850 Besalú, Girona, Espanya": null,
+  "Pavelló municipal de Besalú, Catalunya": null,
+  "Pavelló municipal de Besalú": null,
+  "Parc Estació, Carrer del Dr. Robert, 57, 17244 Cassà de la Selva, Girona, Espanya": null,
+  "57, Catalunya": {
+    "lat": 41.625969,
+    "lon": 0.5794362
+  },
+  "Teatre Casal Agramuntí, Ronda dels Comtes d'Urgell, 3, 25310 Agramunt, Lleida, Espanya": null,
+  "Teatre Casal Agramuntí, Catalunya": {
+    "lat": 41.7878142,
+    "lon": 1.0997064
+  },
+  "Auditori Teatre Espai Ter, Carrer Riu Ter, 29, 17257 Torroella de Montgrí, Girona, Espanya": null,
+  "Auditori Teatre Espai Ter, Catalunya": {
+    "lat": 42.0396379,
+    "lon": 3.1222671
+  },
+  "Sala Fontova, Carrer d'Anselm Clavé, 1, 17251 Calonge, Girona, Espanya": null,
+  "Sala Fontova, Catalunya": null,
+  "Sala Fontova": null,
+  "Escola L'Areny, Carrer de Sant Lluís, 17, 08940 Cornellà de Llobregat, Barcelona, Espanya": null,
+  "Escola L'Areny, Catalunya": {
+    "lat": 41.3508391,
+    "lon": 2.073181
+  },
+  "Rambla de Sant Esteve, 14, 08291 Ripollet, Barcelona, Espanya": {
+    "lat": 41.4999289,
+    "lon": 2.1574064
+  },
+  "Can Rajoler, Carrer Travessera, 1, 08150 Parets del Vallès, Barcelona, Espanya": {
+    "lat": 41.5724031,
+    "lon": 2.2338557
+  },
+  "Passeig Marimon Asprer, 17100 La Bisbal d'Empordà, Girona, Espanya": {
+    "lat": 41.9630264,
+    "lon": 3.0378919
+  },
+  "Pavelló Municipal de Sils, Catalunya": null,
+  "Pavelló Municipal de Sils": null,
+  "Pavelló Esportiu Municipal Can Noguera, Carrer del Bassal, s/n, 08530 La Garriga, Barcelona, Espanya": null,
+  "Pavelló Esportiu Municipal Can Noguera, Catalunya": null,
+  "Pavelló Esportiu Municipal Can Noguera": null,
+  "Sala Mozart, Catalunya": {
+    "lat": 41.6141803,
+    "lon": 2.6603291
+  },
+  "Pavelló St. Hipòlit de Voltregà, Avinguda de President Josep Tarradellas, 08512 Sant Hipòlit de Voltregà, Barcelona, Espanya": {
+    "lat": 42.0137654,
+    "lon": 2.2393413
+  },
+  "Ajuntament de Cornellà de Llobregat, Plaça de l'Església, 1, 08940 Cornellà de Llobregat, Barcelona, Espanya": null,
+  "Ajuntament de Cornellà de Llobregat, Catalunya": {
+    "lat": 41.3551539,
+    "lon": 2.0701191
+  },
+  "43, Catalunya": {
+    "lat": 41.6228365,
+    "lon": 0.5850535
+  },
+  "La Cate - Entitat cultural, Ronda del Rector Arolas, 4, 17600 Figueres, Girona, Espanya": null,
+  "La Cate - Entitat cultural, Catalunya": null,
+  "La Cate - Entitat cultural": null,
+  "Auditori Barradas, Catalunya": {
+    "lat": 41.3626755,
+    "lon": 2.1006741
+  },
+  "Gran Teatre del Liceu, La Rambla, 59, Ciutat Vella, 08002 Barcelona, Espanya": null,
+  "Gran Teatre del Liceu, Catalunya": {
+    "lat": 41.380242,
+    "lon": 2.1733951
+  },
+  "Cinema Montserrat, Carrer Pola, 9, 17320 Tossa de Mar, Girona, Espanya": null,
+  "Cinema Montserrat, Catalunya": {
+    "lat": 41.7203946,
+    "lon": 2.9310751
+  },
+  "Basílica de la Mercè, Carrer de la Mercè, 1, Ciutat Vella, 08002 Barcelona, Espanya": {
+    "lat": 41.3796261,
+    "lon": 2.1796813
+  },
+  "Cercle Sport Figuerenc, Carrer Monturiol, 3, 17600 Figueres, Girona, Espanya": null,
+  "Cercle Sport Figuerenc, Catalunya": null,
+  "Cercle Sport Figuerenc": null,
+  "Caves Codorniu, Avda. Jaume Codorniu, s/n, 08770, Barcelona, Espanya": null,
+  "Caves Codorniu, Catalunya": {
+    "lat": 41.4337491,
+    "lon": 1.7975752
+  },
+  "Rambla de Modolell, 08840 Viladecans, Barcelona, Espanya": {
+    "lat": 41.319005,
+    "lon": 2.0184861
+  },
+  "Zona de pícnic \"La Parada del Jonquer\", Les Planes d'Hostoles, 17172, Girona, Espanya": null,
+  "Zona de pícnic \"La Parada del Jonquer\", Catalunya": null,
+  "Zona de pícnic \"La Parada del Jonquer\"": null,
+  "Teatre de La Garriga El Patronat, El Passeig, 42, 08530 La Garriga, Barcelona, Espanya": null,
+  "Teatre de La Garriga El Patronat, Catalunya": null,
+  "Teatre de La Garriga El Patronat": null,
+  "Plaça del Mercat, 3, 17534 Ribes de Freser, Girona, Espanya": {
+    "lat": 42.3062732,
+    "lon": 2.1689385
+  },
+  "Passeig de Pere III, Manresa, Barcelona, Espanya": {
+    "lat": 41.729398,
+    "lon": 1.8244254
+  },
+  "Pavelló Municipal d'Esports, Carrer del Puig, 2, 08511 L'Esquirol, Barcelona, Espanya": null,
+  "Pavelló Municipal d'Esports, Catalunya": {
+    "lat": 41.5390517,
+    "lon": 2.1184563
+  },
+  "Ajuntament de la Pobla de Claramunt, Av. Catalunya, 16, 08787 La Pobla de Claramunt, Barcelona, Espanya": null,
+  "Ajuntament de la Pobla de Claramunt, Catalunya": {
+    "lat": 41.5549672,
+    "lon": 1.6753698
+  },
+  "Institut d'Estudis Catalans, Catalunya": {
+    "lat": 41.3813794,
+    "lon": 2.1688754
+  },
+  "Auditori Terrassa, Passeig d'Ernest Lluch, 1, 08222 Terrassa, Barcelona, Espanya": null,
+  "Auditori Terrassa, Catalunya": null,
+  "Auditori Terrassa": null,
+  "El Born Centre de Cultura i Memòria, Plaça Comercial, 12, Ciutat Vella, 08003 Barcelona, Espanya": null,
+  "El Born Centre de Cultura i Memòria, Catalunya": null,
+  "El Born Centre de Cultura i Memòria": null,
+  "Plaça del Coc, 43540 La Ràpita, Tarragona, Espanya": {
+    "lat": 40.6198039,
+    "lon": 0.5936185
+  },
+  "Parc de l'Espanya Industrial, Carrer de Muntadas, 1, Sants-Montjuïc, 08014 Barcelona, Espanya": null,
+  "1, Catalunya": {
+    "lat": 41.7038512,
+    "lon": 1.2973455
+  },
+  "Casino l'Aliança del Poblenou, Rambla del Poblenou, 42, Sant Martí, 08005 Barcelona, Espanya": null,
+  "Casino l'Aliança del Poblenou, Catalunya": {
+    "lat": 41.3998569,
+    "lon": 2.2033572
+  },
+  "Espai Tolrà, Carrer de Portugal, 2, 08211 Castellar del Vallès, Barcelona, Espanya": {
+    "lat": 41.6086289,
+    "lon": 2.0848648
+  },
+  "Escola Anselm Clavé, Carrer de les Escoles, s/n, 08291 Ripollet, Barcelona, Espanya": null,
+  "Escola Anselm Clavé, Catalunya": {
+    "lat": 41.3556118,
+    "lon": 2.0714819
+  },
+  "Parc de la Ciutadella, Passeig de Picasso, 21, 08003 Barcelona, Espanya": null,
+  "Passeig de Picasso, Catalunya": {
+    "lat": 41.3881207,
+    "lon": 2.1836707
+  },
+  "espai Maragall (Centre d'Arts Escèniques de Gavà), Passeig de Joan Maragall, 11, 08850 Gavà, Barcelona, Espanya": null,
+  "espai Maragall (Centre d'Arts Escèniques de Gavà), Catalunya": null,
+  "espai Maragall (Centre d'Arts Escèniques de Gavà)": null,
+  "Pavelló Municipal Germans Margall, Catalunya": null,
+  "Pavelló Municipal Germans Margall": null,
+  "La Torre de Codorniu, Carrer Can Codorniu, 08770, Barcelona, Espanya": null,
+  "La Torre de Codorniu, Catalunya": null,
+  "La Torre de Codorniu": null,
+  "Catedral de Barcelona, Pla de la Seu, s/n, 08002 Barcelona, Espanya": null,
+  "Pla de la Seu, Catalunya": {
+    "lat": 41.3843529,
+    "lon": 2.1760669
+  },
+  "Av. de la Costa Brava, Catalunya": {
+    "lat": 42.2720296,
+    "lon": 2.9613424
+  },
+  "Centre L'Amistat Societat Mutual, Carrer de Sant Antoni, 60, 08330 Premià de Mar, Barcelona, Espanya": null,
+  "Centre L'Amistat Societat Mutual, Catalunya": null,
+  "Centre L'Amistat Societat Mutual": null,
+  "Carrer del Vallespir, 23, Sants-Montjuïc, 08014 Barcelona, Espanya": {
+    "lat": 41.3786456,
+    "lon": 2.1374281
+  },
+  "Carrer de Valladolid, C/ de Valladolid, Sants-Montjuïc, Barcelona, Espanya": null,
+  "Sants-Montjuïc, Catalunya": {
+    "lat": 41.3672708,
+    "lon": 2.1437553
+  },
+  "Passeig de Manuel Puigvert, Carrer d'Anselm Clavé, 111, 08370 Calella, Barcelona, Espanya": null,
+  "Passeig de Manuel Puigvert, Catalunya": {
+    "lat": 41.6119318,
+    "lon": 2.6581749
+  },
+  "Parròquia Santa Maria de la Bisbal d'Empordà, Plaça Major, 17100 La Bisbal d'Empordà, Girona, Espanya": null,
+  "Parròquia Santa Maria de la Bisbal d'Empordà, Catalunya": null,
+  "Parròquia Santa Maria de la Bisbal d'Empordà": null,
+  "Ermita de Sant Antoni de Pàdua, M Sentis, Carrer de Josep Massó Aguiló, 35, 43330 Riudoms, Tarragona, Espanya": null,
+  "Ermita de Sant Antoni de Pàdua, Catalunya": {
+    "lat": 42.228148,
+    "lon": 2.2954811
+  },
+  "Ajuntament de les Preses, Carrer Major, 2, 17178 Les Preses, Girona, Espanya": null,
+  "Ajuntament de les Preses, Catalunya": {
+    "lat": 42.1417945,
+    "lon": 2.4610375
+  },
+  "Auditori Municipal de Terrassa, Carrer de Miquel Vives, 2, 08222 Terrassa, Barcelona, Espanya": null,
+  "Auditori Municipal de Terrassa, Catalunya": null,
+  "Auditori Municipal de Terrassa": null,
+  "Santa Maria d'Olesa de Montserrat, Plaça Nova, 21, 08640 Olesa de Montserrat, Barcelona, Espanya": null,
+  "Santa Maria d'Olesa de Montserrat, Catalunya": null,
+  "Santa Maria d'Olesa de Montserrat": null,
+  "Ermita de Sant Muç, Carrer de l'Ermita, 21, 08191 Rubí, Barcelona, Espanya": null,
+  "Ermita de Sant Muç, Catalunya": {
+    "lat": 41.5090748,
+    "lon": 2.0221887
+  },
+  "Av. de les Teixidores, 2, 08100 Mollet del Vallès, Barcelona, Espanya": {
+    "lat": 41.5411404,
+    "lon": 2.2210804
+  },
+  "Placeta de Ramon Torres Casanova, C/ de Finlàndia, 24, Sants-Montjuïc, 08014 Barcelona, Espanya": null,
+  "Placeta de Ramon Torres Casanova, Catalunya": null,
+  "Placeta de Ramon Torres Casanova": null,
+  "Col•legiata de Sant Pere de Ponts, Carrer Carrerada, 25740 Ponts, Lleida, Espanya": null,
+  "Col•legiata de Sant Pere de Ponts, Catalunya": {
+    "lat": 41.9164028,
+    "lon": 1.1965748
+  },
+  "Parc de Bellvitge, C/ de l'Ermita de Bellvitge, 38, 08907 L'Hospitalet de Llobregat, Barcelona, Espanya": null,
+  "38, Catalunya": {
+    "lat": 41.3941398,
+    "lon": 2.1152454
+  },
+  "Ajuntament de Vilassar de Dalt, Pl. de la República, 1, 08339 Vilassar de Dalt, Barcelona, Espanya": null,
+  "Ajuntament de Vilassar de Dalt, Catalunya": {
+    "lat": 41.5170511,
+    "lon": 2.3585352
+  },
+  "Pavelló Firal, Carrer del Mas Clarà, 14, 17100 La Bisbal d'Empordà, Girona, Espanya": null,
+  "Pavelló Firal, Catalunya": {
+    "lat": 41.3477326,
+    "lon": 1.6880688
+  },
+  "Carrer Murrià, 34, 17178 Les Preses, Girona, Espanya": {
+    "lat": 42.1430546,
+    "lon": 2.4608541
+  },
+  "Espai d'Arts Escèniques Casal d’Alella: #EspaiAlella, Carrer de Santa Teresa, 9, 08328 Alella, Barcelona, Espanya": null,
+  "Espai d'Arts Escèniques Casal d’Alella: #EspaiAlella, Catalunya": null,
+  "Espai d'Arts Escèniques Casal d’Alella: #EspaiAlella": null,
+  "Poliesportiu Municipal, Poliesportiu, Carrer Poliesportiu, 25730 Artesa de Segre, Lérida, Espanya": null,
+  "Poliesportiu Municipal, Catalunya": {
+    "lat": 42.2696948,
+    "lon": 2.952136
+  },
+  "Escola Thau Sant Cugat, Avinguda de la Generalitat, 201, 08174 Sant Cugat del Vallès, Barcelona, Espanya": {
+    "lat": 41.492401,
+    "lon": 2.0697962
+  },
+  "Passeig Mossèn Cinto Verdaguer, Catalunya": null,
+  "Passeig Mossèn Cinto Verdaguer": {
+    "lat": 41.9258156,
+    "lon": 2.3244623
+  },
+  "Parc de Can Solei i Ca l'Arnús, Av. Navarra, 205I, 08911 Badalona, Barcelona, Espanya": null,
+  "Av. Navarra, Catalunya": {
+    "lat": 41.6212957,
+    "lon": 0.6155697
+  },
+  "Mare de Déu del Camí, Av. del Baix Camp, 35, 43850 Cambrils, Tarragona, Espanya": null,
+  "Mare de Déu del Camí, Catalunya": {
+    "lat": 41.0715106,
+    "lon": 1.0511509
+  },
+  "Rambla de Sant Jordi, Ripollet, Barcelona, Espanya": {
+    "lat": 41.4953725,
+    "lon": 2.1647312
+  },
+  "Passeig Manuel Puigvert, Carrer d'Anselm Clavé, 96-90, 08370 Calella, Barcelona, Espanya": null,
+  "Passeig Manuel Puigvert, Catalunya": {
+    "lat": 41.6119318,
+    "lon": 2.6581749
+  },
+  "Pavelló Polivalent d'Alcarràs, 25180 Alcarràs, Lleida, Espanya": {
+    "lat": 41.5678955,
+    "lon": 0.5202665
+  },
+  "Roda de Berà Ràdio, Plaça dels Pins, 6, 43883 Roda de Berà, Tarragona, Espanya": {
+    "lat": 41.1856957,
+    "lon": 1.455636
+  },
+  "Can Campassol, Carrer de Mar, 85, 08380 Malgrat de Mar, Barcelona, Espanya": null,
+  "Parc Torras Villà, Unnamed Road, 08402 Granollers, Barcelona, Espanya": null,
+  "Unnamed Road, Catalunya": null,
+  "Unnamed Road": null,
+  "Patronat Cultural i Recreatiu, Carrer de Mossèn Jacint Verdaguer, 52, 08940 Cornellà de Llobregat, Barcelona, Espanya": null,
+  "Patronat Cultural i Recreatiu, Catalunya": null,
+  "Patronat Cultural i Recreatiu": null,
+  "L'Artesà Cafè, Carrer del Centre, 33, 08820 El Prat de Llobregat, Barcelona, Espanya": null,
+  "L'Artesà Cafè, Catalunya": {
+    "lat": 41.189363,
+    "lon": 1.6052525
+  },
+  "Teatre Principal de Sabadell, Carrer de Sant Pau, 6, 08201 Sabadell, Barcelona, Espanya": null,
+  "Teatre Principal de Sabadell, Catalunya": {
+    "lat": 41.5455929,
+    "lon": 2.1081749
+  },
+  "Plaza de España, Catalunya": {
+    "lat": 41.3752877,
+    "lon": 2.1495932
+  },
+  "Palau Sant Jordi, Catalunya": {
+    "lat": 41.3634668,
+    "lon": 2.1525682
+  },
+  "Envelat Municipal. Av. Pare Jaume Català, 19, 08349 Cabrera de Mar, Barcelona, Espanya": null,
+  "Envelat Municipal. Av. Pare Jaume Català, Catalunya": null,
+  "Envelat Municipal. Av. Pare Jaume Català": null,
+  "Plaça de l'Espolsada, Plaça de l’espolsada, 11, 08520 Corró d'Avall, Barcelona, Espanya": null,
+  "11, Catalunya": {
+    "lat": 41.62406,
+    "lon": 0.6398679
+  },
+  "Palau de la Música Catalana, C/ Palau de la Música, 4-6, 08003 Barcelona, Espanya": null,
+  "Teatre Can Rajoler, Carrer Travessera, 1, 08150 Parets del Vallès, Barcelona, Espanya": null,
+  "Teatre Can Rajoler, Catalunya": {
+    "lat": 41.5724031,
+    "lon": 2.2338557
+  },
+  "Centre Cívic \"La Fàbrica\", Carrer Domènec Carles, 21, 08348 Cabrils, Barcelona, Espanya": null,
+  "Centre Cívic \"La Fàbrica\", Catalunya": {
+    "lat": 42.0266476,
+    "lon": 2.8741333
+  },
+  "Pavelló Molí de l'Esquerrà, 25600, Av. Comte Jaume d'Urgell, 32, 25600 Balaguer, Lérida, Espanya": null,
+  "Pavelló Molí de l'Esquerrà, Catalunya": {
+    "lat": 41.7961644,
+    "lon": 0.8102914
+  },
+  "Teatre Municipal La Sala, Carrer de Cervantes, 126, 08191 Rubí, Barcelona, Espanya": null,
+  "Teatre Municipal La Sala, Catalunya": null,
+  "Teatre Municipal La Sala": null,
+  "Saló de Cent, Pl. de Sant Jaume, 08002 Barcelona, Espanya": null,
+  "Saló de Cent, Catalunya": null,
+  "Saló de Cent": null,
+  "Passeig del Comte Guifré, 17860 Sant Joan de les Abadesses, Girona, Espanya": null,
+  "Passeig del Comte Guifré, Catalunya": null,
+  "Passeig del Comte Guifré": null,
+  "Parc de la Marquesa, Carretera de Collblanc, 69, 08904 L'Hospitalet de Llobregat, Barcelona, Espanya": null,
+  "Carretera de Collblanc, Catalunya": {
+    "lat": 41.3757338,
+    "lon": 2.1192121
+  },
+  "Passeig de l'Escultor Miquel Blay, 17800 Olot, Girona, Espanya": {
+    "lat": 42.1830995,
+    "lon": 2.487144
+  },
+  "Plaça del Lledoner, Carrer de Dalt, 25, 08184 Palau-solità i Plegamans, Barcelona, Espanya": null,
+  "25, Catalunya": {
+    "lat": 41.6244389,
+    "lon": 0.6396823
+  },
+  "Carrer del Rosari, 59, 08340 Vilassar de Mar, Barcelona, Espanya": {
+    "lat": 41.505594,
+    "lon": 2.3967519
+  },
+  "Centre Cultural de Ripollet, Rambla de Sant Jordi, 2, 4, 08291 Ripollet, Barcelona, Espanya": null,
+  "Centre Cultural de Ripollet, Catalunya": {
+    "lat": 41.4980538,
+    "lon": 2.158348
+  },
+  "Parc de Can Mulà, Avinguda de Rafael Casanova, 15, 08100 Mollet del Vallès, Barcelona, Espanya": null,
+  "15, Catalunya": {
+    "lat": 41.6239297,
+    "lon": 0.6400638
+  },
+  "Parc Municipal, ( Arbreda de Cal Mané )": null,
+  "( Arbreda de Cal Mané ), Catalunya": null,
+  "( Arbreda de Cal Mané )": null,
+  "Centre Cívic Sarrià, Catalunya": {
+    "lat": 41.3936723,
+    "lon": 2.1215916
+  },
+  "Plaça de l'Ermita, 08970 San Juan Despí, Barcelona, Espanya": {
+    "lat": 41.3665725,
+    "lon": 2.0563629
+  },
+  "Pabellón Municipal Hermanos Margall, Carrer de Josep Maria Folch i Torres, s/n, 08380 Malgrat de Mar, Barcelona, Espanya": null,
+  "Pabellón Municipal Hermanos Margall, Catalunya": null,
+  "Pabellón Municipal Hermanos Margall": null,
+  "Ateneu Cerdanyola, Carrer de la Indústria, 38, 40, 08290 Cerdanyola del Vallès, Barcelona, Espanya": null,
+  "Ateneu Cerdanyola, Catalunya": {
+    "lat": 41.4884194,
+    "lon": 2.141183
+  },
+  "Teatre \"Narcís Masferrer\", Sant Feliu de Guíxols, de s/n, Carrer Callao, 17220 San Felíu de Guixols, Girona, Espanya": null,
+  "Teatre \"Narcís Masferrer\", Catalunya": null,
+  "Teatre \"Narcís Masferrer\"": null,
+  "Mercat del Born, Plaça Comercial, 12, 08003 Barcelona, Espanya": {
+    "lat": 41.385712,
+    "lon": 2.1836373
+  },
+  "Escola el Palau, Carrer Rubió i Ors, 1, 08750 Molins de Rei, Barcelona, Espanya": null,
+  "Escola el Palau, Catalunya": {
+    "lat": 41.4116833,
+    "lon": 2.0164327
+  },
+  "Escola Pública Pau Casals, Carrer de Sant Pere, 40, 08191 Rubí, Barcelona, Espanya": null,
+  "Escola Pública Pau Casals, Catalunya": null,
+  "Escola Pública Pau Casals": null,
+  "Jardins Juli Garreta, C. de Cristòfol Colom, 17220 Sant Feliu de Guíxols, Girona, Espanya": null,
+  "Jardins Juli Garreta, Catalunya": {
+    "lat": 41.7811057,
+    "lon": 3.0330168
+  },
+  "Terracotta Museu, Bisbal D'Empordá ( La, Carrer del Sis D'Octubre de 1869, 99, 17100 La Bisbal d'Empordà, Girona, Espanya": null,
+  "Terracotta Museu, Catalunya": {
+    "lat": 41.9593845,
+    "lon": 3.0439724
+  },
+  "Sala de la Unió, Catalunya": null,
+  "Sala de la Unió": null,
+  "Fontaine des Neuf Jets, 10-11 Place des Neuf Jets, 66400 Céret, França": null,
+  "Fontaine des Neuf Jets, Catalunya": null,
+  "Fontaine des Neuf Jets": {
+    "lat": 42.4847559,
+    "lon": 2.747809
+  },
+  "Font d’en Nando, Ctra. de Ribes, 62, 08585 Montesquiu, Barcelona, Espanya": null,
+  "Font d’en Nando, Catalunya": {
+    "lat": 42.1131034,
+    "lon": 2.2061157
+  },
+  "Parc de les Set Fonts, Riera de, 08504 Sant Julià de Vilatorta, Barcelona, Espanya": null,
+  "Riera de, Catalunya": {
+    "lat": 41.4984862,
+    "lon": 2.3210141
+  },
+  "Castell de Rubí, Carrer del Castell, 35, 08191 Rubí, Barcelona, Espanya": null,
+  "Castell de Rubí, Catalunya": {
+    "lat": 41.4945678,
+    "lon": 2.0263856
+  },
+  "Teatre Municipal de Lloret de Mar, Plaça Germinal Ros, s/n, 17310 Lloret de Mar, Girona, Girona, Espanya": null,
+  "Teatre Municipal de Lloret de Mar, Catalunya": {
+    "lat": 41.7049941,
+    "lon": 2.847679
+  },
+  "El Casino - Sant Esteve Sesrovires, Carrer de Sant Joan, 15, 08635 Sant Esteve Sesrovires, Barcelona, Espanya": null,
+  "El Casino - Sant Esteve Sesrovires, Catalunya": null,
+  "El Casino - Sant Esteve Sesrovires": null,
+  "Teatre, Carrer de Mossèn Cinto Verdaguer, 6, 17500 Ripoll, Girona, Espanya": null,
+  "Teatre, Catalunya": {
+    "lat": 41.380242,
+    "lon": 2.1733951
+  },
+  "Teatre Principal de Terrassa, Plaça de Maragall, 2, 08221 Terrassa, Barcelona, Espanya": null,
+  "Teatre Principal de Terrassa, Catalunya": {
+    "lat": 41.5644139,
+    "lon": 2.0129699
+  },
+  "Palau Tolrà, 08211 Castellar del Vallès, Barcelona, Espanya": {
+    "lat": 41.6185418,
+    "lon": 2.0878627
+  },
+  "Torre del Rellotge, Plaça Nova, 20, 08640 Olesa de Montserrat, Barcelona, Espanya": null,
+  "Torre del Rellotge, Catalunya": {
+    "lat": 41.3749351,
+    "lon": 2.1857642
+  },
+  "Parc de la Guineueta, Pl. Llucmajor, 9, Barcelona, Espanya": null,
+  "9, Catalunya": {
+    "lat": 41.9787043,
+    "lon": 2.8226822
+  },
+  "Roquetes, Catalunya": {
+    "lat": 40.8203657,
+    "lon": 0.50343
+  },
+  "Passeig de la Zona Franca, 185, 08038 Barcelona, Espanya Parada de metro Foneria Línia 10 Sud": null,
+  "Passeig de la Zona Franca, Catalunya": {
+    "lat": 41.3485423,
+    "lon": 2.1477682
+  },
+  "Carrer de Cardedeu, 17, 08530 La Garriga, Barcelona, Espanya": null,
+  "17, Catalunya": {
+    "lat": 41.3730438,
+    "lon": 2.1616761
+  },
+  "Parc de l'Espanya Industrial, Carrer de Muntadas, 37, 08014 Barcelona, Espanya": null,
+  "37, Catalunya": {
+    "lat": 41.6221105,
+    "lon": 0.58778
+  },
+  "Font Picant Cabrera, 08349 Cabrera de Mar, Barcelona, Espanya": {
+    "lat": 41.5364453,
+    "lon": 2.3819952
+  },
+  "Parc de l'Espanya Industrial, Calle Muntadas, 37, 08014 Barcelona, Espanya": null,
+  "Calle Muntadas, Catalunya": null,
+  "Calle Muntadas": null,
+  "Plaça Catalunya, Spain": {
+    "lat": 42.266283,
+    "lon": 2.9656242
+  },
+  "Parc de can Campaçol": null,
+  "Conservatori Liceu, Carrer Nou de la Rambla, 88, 08001 Barcelona, Barcelona, Espanya": null,
+  "Conservatori Liceu, Catalunya": {
+    "lat": 41.3761379,
+    "lon": 2.1708881
+  },
+  "Paque de la España Industrial, Calle Muntadas,37, 08014 Barcelona, Barcelona, Espanya": null,
+  "Paque de la España Industrial, Catalunya": null,
+  "Paque de la España Industrial": null,
+  "BSM - APARCAMENT PLAÇA JOANIC, C de l'Escorial, 1, 08024 Barcelona, Barcelona, Espanya": null,
+  "C de l'Escorial, Catalunya": {
+    "lat": 41.4093789,
+    "lon": 2.1593315
+  },
+  "Santa Caterina Market, Avinguda de Francesc Cambó, 16, 08003 Barcelona, Barcelona, Espanya": null,
+  "Santa Caterina Market, Catalunya": null,
+  "Santa Caterina Market": {
+    "lat": 41.3864152,
+    "lon": 2.1759498
+  },
+  "Castell Jalpi, Lugar Barri Migdia, 12, Arenys de Munt, Spain": null,
+  "Castell Jalpi, Catalunya": {
+    "lat": 41.5991729,
+    "lon": 2.539806
+  },
+  "12 (Cercle Catòlic Gràcia), Catalunya": null,
+  "12 (Cercle Catòlic Gràcia)": null,
+  "Aules Senior, Catalunya": null,
+  "Aules Senior": null,
+  "Plaça catedral": {
+    "lat": 41.3841563,
+    "lon": 2.1773945
+  },
+  "Lleida": {
+    "lat": 41.6147605,
+    "lon": 0.6267842
   }
 }

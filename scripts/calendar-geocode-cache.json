@@ -1356,5 +1356,1177 @@
   "MÈLT-Martorell": null,
   "Plaça de l'Ermita, Pl. de l'Ermita, 08970 Sant Joan Despí, Barcelona, Espanya, Ballada-Sant Joan Despí": null,
   "Ballada-Sant Joan Despí, Catalunya": null,
-  "Ballada-Sant Joan Despí": null
+  "Ballada-Sant Joan Despí": null,
+  "Plaça de l'Església": {
+    "lat": 41.1484305,
+    "lon": 1.0931986
+  },
+  "Carrer la Bassa, 25161 Alfés, Lleida, Espanya": {
+    "lat": 41.5212161,
+    "lon": 0.6188642
+  },
+  "Plaça del Castell": {
+    "lat": 41.7763259,
+    "lon": 1.4377378
+  },
+  "Espai Poliesportiu": null,
+  "Espai Poliesportiu, Catalunya": null,
+  "Plaça del Casal": {
+    "lat": 41.3868128,
+    "lon": 1.5716136
+  },
+  "Pavelló": {
+    "lat": 41.5941144,
+    "lon": 2.0418735
+  },
+  "Pista Poliesportiva": {
+    "lat": 41.4112849,
+    "lon": 2.1952536
+  },
+  "Pavelló Municipal": {
+    "lat": 42.174267,
+    "lon": 2.4832026
+  },
+  "Arbres d'en Casals": null,
+  "Arbres d'en Casals, Catalunya": null,
+  "Ermita de Sant Antoni Riudoms": {
+    "lat": 41.1422448,
+    "lon": 1.048336
+  },
+  "Pati del Casal": {
+    "lat": 41.1997547,
+    "lon": 1.6360398
+  },
+  "Jardins de l'Ajuntament": null,
+  "Jardins de l'Ajuntament, Catalunya": null,
+  "Ateneu D'Accio Cultural (ADAC), Partida Sant Domènec, 2 pral, 17004 Girona, Espanya": null,
+  "17004 Girona, Catalunya": {
+    "lat": 41.9797129,
+    "lon": 2.8304431
+  },
+  "Fundació Privada Casino L'Aliança del Poblenou, Rambla del Poblenou, 42, Sant Martí, 08005 Barcelona, Espanya": null,
+  "08005 Barcelona, Catalunya": {
+    "lat": 41.3810089,
+    "lon": 2.1695118
+  },
+  "Parc Marcel·lí Monrós": {
+    "lat": 41.75101,
+    "lon": 1.9034159
+  },
+  "Plaça de l'Ajuntament": {
+    "lat": 42.267257,
+    "lon": 2.9608552
+  },
+  "Parc Municipal": {
+    "lat": 42.9043052,
+    "lon": 1.9316303
+  },
+  "Carpa Municipal (al costat de l'Ajuntament)": null,
+  "Carpa Municipal (al costat de l'Ajuntament), Catalunya": null,
+  "Rambla Badalona (monument Roca i Pi)": null,
+  "Rambla Badalona (monument Roca i Pi), Catalunya": null,
+  "Sala Cubbtural": null,
+  "Sala Cubbtural, Catalunya": null,
+  "Jardins Masia de Cal Conde": null,
+  "Jardins Masia de Cal Conde, Catalunya": null,
+  "Església Sant Vicenç dels Horts": {
+    "lat": 41.3929289,
+    "lon": 2.0107173
+  },
+  "Parc de la Ciutadella, Ciutat Vella, 08003 Barcelona, Espanya": {
+    "lat": 41.3858521,
+    "lon": 2.1859357
+  },
+  "Passeig de Mossèn Cinto Verdaguer": {
+    "lat": 41.9258156,
+    "lon": 2.3244623
+  },
+  "https://maps.app.goo.gl/zU2ewJbGeY6YHQZU9": null,
+  "https://maps.app.goo.gl/zU2ewJbGeY6YHQZU9, Catalunya": null,
+  "Pista Esportiva de Ca la Guapa": null,
+  "Pista Esportiva de Ca la Guapa, Catalunya": null,
+  "Institut d'Estudis Catalans, C/ del Carme, 47, Ciutat Vella, 08001 Barcelona, Espanya": null,
+  "08001 Barcelona, Catalunya": {
+    "lat": 41.3810089,
+    "lon": 2.1695118
+  },
+  "Plaça U d'octubre": {
+    "lat": 41.4830757,
+    "lon": 2.3172061
+  },
+  "Plaça de la Vila": {
+    "lat": 41.449907,
+    "lon": 2.2475683
+  },
+  "Parc de l'Estació": {
+    "lat": 41.6283237,
+    "lon": 2.1666779
+  },
+  "Plaça del Torrent Arrosser": {
+    "lat": 41.6015261,
+    "lon": 2.6249663
+  },
+  "Església de Sant Vicenç dels Horts": {
+    "lat": 41.3929289,
+    "lon": 2.0107173
+  },
+  "Pavelló Municipal Sant Quirze de Besora": {
+    "lat": 42.102857,
+    "lon": 2.215949
+  },
+  "Pista polivalent": {
+    "lat": 41.9915909,
+    "lon": 2.9554439
+  },
+  "Envelat Municipal": null,
+  "Envelat Municipal, Catalunya": null,
+  "La Fassina de can Guineu": {
+    "lat": 41.4245205,
+    "lon": 1.7877778
+  },
+  "Plaça Nova-U d'Octubre": null,
+  "Plaça Nova-U d'Octubre, Catalunya": null,
+  "Plaça la Bassa": {
+    "lat": 40.9557704,
+    "lon": 0.3150406
+  },
+  "La punta": {
+    "lat": 42.4369658,
+    "lon": -0.121707
+  },
+  "Plaça Francesc Mas Ros": null,
+  "Plaça Francesc Mas Ros, Catalunya": null,
+  "La Rambla": {
+    "lat": 41.3833957,
+    "lon": 2.1714535
+  },
+  "Paratge de la canya": null,
+  "Paratge de la canya, Catalunya": null,
+  "Jardins de can Puget": null,
+  "Jardins de can Puget, Catalunya": null,
+  "Parc del Camp de futbol vell": null,
+  "Parc del Camp de futbol vell, Catalunya": null,
+  "Plaça de les Dones del 36, Gràcia, 08012 Barcelona, Espanya": {
+    "lat": 41.404515,
+    "lon": 2.1536429
+  },
+  "Can Serracant": null,
+  "Can Serracant, Catalunya": null,
+  "Plaça de l'U d'Octubre": {
+    "lat": 41.9835913,
+    "lon": 2.8205754
+  },
+  "Zona esportiva, Sala Polivalent": null,
+  "Zona esportiva, Catalunya": {
+    "lat": 41.8475477,
+    "lon": 2.2203867
+  },
+  "Església": {
+    "lat": 41.7180307,
+    "lon": 2.5476092
+  },
+  "Plaça Nova 1 d'octubre": null,
+  "Plaça Nova 1 d'octubre, Catalunya": null,
+  "Plaça 11 de setembre": {
+    "lat": 41.6586771,
+    "lon": 1.0814885
+  },
+  "Plaça Antoni Pujades": {
+    "lat": 41.4904868,
+    "lon": 2.295643
+  },
+  "Jardins del Sors": null,
+  "Jardins del Sors, Catalunya": null,
+  "Ermita de Sant Antoni": {
+    "lat": 40.347195,
+    "lon": 0.3554548
+  },
+  "PLaça 1 d'octubre, caldes de malavella": null,
+  "PLaça 1 d'octubre, Catalunya": {
+    "lat": 41.3375288,
+    "lon": 1.9928604
+  },
+  "Plaça de la Llibertat": {
+    "lat": 41.5597985,
+    "lon": 2.0932018
+  },
+  "Parc del castell": {
+    "lat": 41.2840681,
+    "lon": 1.9776359
+  },
+  "Plaça de l'1 d'octubre": {
+    "lat": 41.5219835,
+    "lon": 1.7515334
+  },
+  "Jardins de Vicenç Pujol": null,
+  "Jardins de Vicenç Pujol, Catalunya": null,
+  "Parc Municipal (Arbreda de cal Mané)": null,
+  "Parc Municipal (Arbreda de cal Mané), Catalunya": null,
+  "Plaza de España, 28008 Madrid, Espanya": null,
+  "28008 Madrid, Catalunya": {
+    "lat": 41.3842872,
+    "lon": 2.1722041
+  },
+  "Palau Sant Jordi, Passeig Olímpic, 5-7, 08038 Barcelona, Espanya": null,
+  "08038 Barcelona, Catalunya": {
+    "lat": 41.3810089,
+    "lon": 2.1695118
+  },
+  "Jardins del centre cultural la Torreta": null,
+  "Jardins del centre cultural la Torreta, Catalunya": null,
+  "Teatre Municipal": {
+    "lat": 41.9827095,
+    "lon": 2.8254577
+  },
+  "Envelat Municipal (al costat de l'Ajuntament)": null,
+  "Envelat Municipal (al costat de l'Ajuntament), Catalunya": null,
+  "Pla de Sant Pere": {
+    "lat": 42.2092948,
+    "lon": 2.188378
+  },
+  "Plaça Joan Cadevall": {
+    "lat": 41.6756933,
+    "lon": 1.8396817
+  },
+  "Jardins dels Sors": null,
+  "Jardins dels Sors, Catalunya": null,
+  "Plaça dela Vila": null,
+  "Plaça dela Vila, Catalunya": null,
+  "Pati del Castell Nou": null,
+  "Pati del Castell Nou, Catalunya": null,
+  "Paratges de Santa Cristina": null,
+  "Paratges de Santa Cristina, Catalunya": null,
+  "Centre Cívic Sarrià, Carrer d'Eduardo Conde, 22, 08034 Barcelona, Espanya": null,
+  "08034 Barcelona, Catalunya": {
+    "lat": 41.3810089,
+    "lon": 2.1695118
+  },
+  "Sala Municipal": {
+    "lat": 41.5155574,
+    "lon": 1.9018078
+  },
+  "Pavelló esportiu": {
+    "lat": 42.0755245,
+    "lon": 1.8213109
+  },
+  "Plaça Sant Jordi": {
+    "lat": 41.4767777,
+    "lon": 1.9194509
+  },
+  "Pista Poliesportiva Municipal Francesc Macià": null,
+  "Pista Poliesportiva Municipal Francesc Macià, Catalunya": null,
+  "Envelat Municipal de Cal Conde": null,
+  "Envelat Municipal de Cal Conde, Catalunya": null,
+  "Pista Conxita Udina del Parc del Pou d'en Fèlix": null,
+  "Pista Conxita Udina del Parc del Pou d'en Fèlix, Catalunya": null,
+  "Plaça d'Octavià": {
+    "lat": 41.4734512,
+    "lon": 2.0842646
+  },
+  "Plaça del Mercadal": {
+    "lat": 41.1550131,
+    "lon": 1.1087531
+  },
+  "Plaça Santa Maria": {
+    "lat": 41.5493104,
+    "lon": 2.249339
+  },
+  "Teatre del Centre Parroquial": null,
+  "Teatre del Centre Parroquial, Catalunya": null,
+  "Parc Onze de Setembre": {
+    "lat": 41.2103525,
+    "lon": 1.1426859
+  },
+  "Plaça d'Antoni Pujades": {
+    "lat": 41.4904868,
+    "lon": 2.295643
+  },
+  "Passeig Puigvert": {
+    "lat": 41.4457824,
+    "lon": 2.1934892
+  },
+  "Pati de l'Erol": null,
+  "Pati de l'Erol, Catalunya": null,
+  "Pavelló Poliesportiu Municipal i Església": null,
+  "Pavelló Poliesportiu Municipal i Església, Catalunya": null,
+  "Plaça de la Punta": {
+    "lat": 42.1274028,
+    "lon": 3.1340858
+  },
+  "Església i voltants.": null,
+  "Església i voltants., Catalunya": null,
+  "Parc de can Campasol": {
+    "lat": 41.6437525,
+    "lon": 2.7440225
+  },
+  "Passeig de Mar": {
+    "lat": 41.6414405,
+    "lon": 2.7417959
+  },
+  "Pati de la Residència Sant Josep": null,
+  "Pati de la Residència Sant Josep, Catalunya": null,
+  "Sala de la Unió, Parking des Marronniers, Impasse Ferdinand Forne, 66400 Céret, França": null,
+  "66400 Céret, Catalunya": {
+    "lat": 42.6266864,
+    "lon": 2.7593332
+  },
+  "Plaça del Barri": {
+    "lat": 42.6797879,
+    "lon": 2.9400516
+  },
+  "Parc camp de Fútbol Vell": null,
+  "Parc camp de Fútbol Vell, Catalunya": null,
+  "Plaça Catalunya": {
+    "lat": 42.266283,
+    "lon": 2.9656242
+  },
+  "Parc Municipal ( Parc Nou )": {
+    "lat": 41.4365931,
+    "lon": 2.183157
+  },
+  "Parc Torras i Villà": null,
+  "Parc Torras i Villà, Catalunya": null,
+  "Plaça Figueres": {
+    "lat": 42.267257,
+    "lon": 2.9608552
+  },
+  "Passeig": {
+    "lat": 41.3909718,
+    "lon": 2.1666791
+  },
+  "Pati de l'Artesà": {
+    "lat": 41.9258106,
+    "lon": 1.0616375
+  },
+  "Parc Metropolità de Bellvitge": null,
+  "Parc Metropolità de Bellvitge, Catalunya": null,
+  "Auditori de Granollers": {
+    "lat": 41.6110212,
+    "lon": 2.2868135
+  },
+  "Parquing Es Racó ( sota muralles de Vila Vella ). En cas de mal temps SALA MAJOR de la Nau.": null,
+  "Parquing Es Racó ( sota muralles de Vila Vella ). En cas de mal temps SALA MAJOR de la Nau., Catalunya": null,
+  "Parc de Can Campassol. Si el temps no acompanya Pavelló Municipal": null,
+  "Parc de Can Campassol. Si el temps no acompanya Pavelló Municipal, Catalunya": null,
+  "Pati de l'escola El Palau": null,
+  "Pati de l'escola El Palau, Catalunya": null,
+  "Antic Parc Central": {
+    "lat": 41.5194813,
+    "lon": 2.1113089
+  },
+  "Casal": {
+    "lat": 43.052569,
+    "lon": 1.5096567
+  },
+  "Pati de Ses Escoues (Parròquia de Sant Romà)": null,
+  "Pati de Ses Escoues (Parròquia de Sant Romà), Catalunya": null,
+  "Jardins Lluis Companys, situat darrera de l'Ajuntament": null,
+  "Jardins Lluis Companys, Catalunya": {
+    "lat": 41.601623,
+    "lon": 2.2818955
+  },
+  "Sala Polivalent": {
+    "lat": 41.5700336,
+    "lon": 2.0935862
+  },
+  "Pla de la Catedral": {
+    "lat": 42.5989878,
+    "lon": 2.9716006
+  },
+  "Pavelló Firal": {
+    "lat": 41.3477326,
+    "lon": 1.6880688
+  },
+  "Masia de Cal Conde": null,
+  "Masia de Cal Conde, Catalunya": null,
+  "Pavelló de can Noguera ( Avinguda de l'Avi Musquera, s/n )": null,
+  "Pavelló de can Noguera ( Avinguda de l'Avi Musquera, Catalunya": null,
+  "Pavelló de can Noguera ( Avinguda de l'Avi Musquera": null,
+  "Plaça de l'Ermita": {
+    "lat": 41.3665276,
+    "lon": 2.0558109
+  },
+  "Pabelló": {
+    "lat": 41.3522644,
+    "lon": 2.0699221
+  },
+  "Plaça Nova - 1d'Octubre": null,
+  "Plaça Nova - 1d'Octubre, Catalunya": null,
+  "Plaça Major": {
+    "lat": 41.6101932,
+    "lon": 1.1436394
+  },
+  "Teatre Auditori": {
+    "lat": 41.6110212,
+    "lon": 2.2868135
+  },
+  "Plaça Nova": {
+    "lat": 41.9165161,
+    "lon": 3.1645694
+  },
+  "Plaça Lluís Companys": {
+    "lat": 41.6083501,
+    "lon": 2.1384795
+  },
+  "Centre del Cabrera": null,
+  "Centre del Cabrera, Catalunya": null,
+  "Església de Sant Pere": {
+    "lat": 42.1982061,
+    "lon": 2.6989573
+  },
+  "el Patronat": {
+    "lat": 41.6793438,
+    "lon": 2.2885015
+  },
+  "Col.legi Sant Josep": {
+    "lat": 41.4023997,
+    "lon": 2.1552716
+  },
+  "Ermita de Bellvitge ( just al costat)": null,
+  "Ermita de Bellvitge ( just al costat), Catalunya": null,
+  "Casa de la Sardana": {
+    "lat": 41.3876938,
+    "lon": 2.1799135
+  },
+  "Pavelló Municipal d'esports": {
+    "lat": 41.5390517,
+    "lon": 2.1184563
+  },
+  "Parc de la Ciutadella": {
+    "lat": 41.388416,
+    "lon": 2.1862546
+  },
+  "Plaça de la sardana": {
+    "lat": 41.2180989,
+    "lon": 1.7220254
+  },
+  "Teatre": {
+    "lat": 41.4027189,
+    "lon": 2.1559586
+  },
+  "Plaça d'En Joanic, 08024 Barcelona, Espanya": {
+    "lat": 41.4054141,
+    "lon": 2.1625567
+  },
+  "Plaça Mestre Vila Vell": null,
+  "Plaça Mestre Vila Vell, Catalunya": null,
+  "Parc de Francesc Macià / Pavelló": null,
+  "Parc de Francesc Macià / Pavelló, Catalunya": null,
+  "Plaça": {
+    "lat": 41.6107229,
+    "lon": 2.3440694
+  },
+  "Plaça Pi i Sunyer": {
+    "lat": 41.366918,
+    "lon": 2.0738216
+  },
+  "Plaça d'Antoni Pujades ( Sorli )": null,
+  "Plaça d'Antoni Pujades ( Sorli ), Catalunya": null,
+  "Parc": {
+    "lat": 41.7251373,
+    "lon": 1.8201803
+  },
+  "Riera": {
+    "lat": 41.3505631,
+    "lon": 2.0747338
+  },
+  "Parc de Can Campaçol": null,
+  "Parc de Can Campaçol, Catalunya": null,
+  "Centre del Poble": {
+    "lat": 41.3720563,
+    "lon": 2.1625249
+  },
+  "Plaça font dels Nou Raigs": {
+    "lat": 42.4847559,
+    "lon": 2.747809
+  },
+  "Plaça de Bous": {
+    "lat": 40.6691438,
+    "lon": 0.7590498
+  },
+  "Plaça Picasso": {
+    "lat": 42.5390268,
+    "lon": 2.9233345
+  },
+  "Plaça Octavia": {
+    "lat": 41.4732816,
+    "lon": 2.084078
+  },
+  "Pati Residència Sant Josep": null,
+  "Pati Residència Sant Josep, Catalunya": null,
+  "Hort de can Falç": {
+    "lat": 41.2358537,
+    "lon": 1.8096016
+  },
+  "Plaça Joanic": {
+    "lat": 41.4055776,
+    "lon": 2.1624072
+  },
+  "Can Mercader": {
+    "lat": 41.5540511,
+    "lon": 2.4108731
+  },
+  "Pati del Casino": null,
+  "Pati del Casino, Catalunya": null,
+  "Plaça Ajuntament": {
+    "lat": 41.3299262,
+    "lon": 1.9245749
+  },
+  "Envelat": {
+    "lat": 41.6926587,
+    "lon": 2.446643
+  },
+  "Pou de Can Felix": null,
+  "Pou de Can Felix, Catalunya": null,
+  "Plaça de Santa Maria": {
+    "lat": 41.6391275,
+    "lon": 2.400293
+  },
+  "Parc Torre Lluch": null,
+  "Parc Torre Lluch, Catalunya": null,
+  "Cal Conde": {
+    "lat": 41.526361,
+    "lon": 2.3948618
+  },
+  "Plaça Ajuntament i Plaça Església": {
+    "lat": 41.3599047,
+    "lon": 2.099033
+  },
+  "Plaça de Santa Anna": {
+    "lat": 41.4787093,
+    "lon": 1.9225019
+  },
+  "Sala de Concerts": null,
+  "Sala de Concerts, Catalunya": null,
+  "Plaça dels nou raigs": {
+    "lat": 42.4847177,
+    "lon": 2.747812
+  },
+  "Plaça Fra Bernardí": null,
+  "Plaça Fra Bernardí, Catalunya": null,
+  "Monestir de Sant Pere de Casserres": {
+    "lat": 42.0014722,
+    "lon": 2.340693
+  },
+  "Parc del Pinetons": {
+    "lat": 41.5086201,
+    "lon": 2.147434
+  },
+  "Parc de les Aigües": {
+    "lat": 41.4132003,
+    "lon": 2.1650753
+  },
+  "Local Social": {
+    "lat": 41.6780539,
+    "lon": 2.4824633
+  },
+  "Pista de basquet": {
+    "lat": 41.6201868,
+    "lon": 2.3003881
+  },
+  "Avinguda de la Catedral": {
+    "lat": 41.3848547,
+    "lon": 2.1761332
+  },
+  "L'Envelat": {
+    "lat": 41.6926587,
+    "lon": 2.446643
+  },
+  "Parc Torreblanca": {
+    "lat": 40.1685895,
+    "lon": 0.1812759
+  },
+  "Plaça Antoni Pujades ( del Sorli )": null,
+  "Plaça Antoni Pujades ( del Sorli ), Catalunya": null,
+  "La Riera": {
+    "lat": 42.4254356,
+    "lon": 3.1342785
+  },
+  "Can Campassol": null,
+  "Can Campassol, Catalunya": null,
+  "Plaça Santa Anna, Espanya": {
+    "lat": 41.5201134,
+    "lon": 0.3491919
+  },
+  "Pista Vella": {
+    "lat": 42.0414988,
+    "lon": 2.9133907
+  },
+  "Parc de can Feu": {
+    "lat": 41.5478274,
+    "lon": 2.0927714
+  },
+  "Parc dels Pinetons": {
+    "lat": 41.4825697,
+    "lon": 2.3124252
+  },
+  "Patronat": {
+    "lat": 41.3985074,
+    "lon": 2.1580838
+  },
+  "Hermita de Sant Muç": null,
+  "Hermita de Sant Muç, Catalunya": null,
+  "Teatre del Liceu": {
+    "lat": 41.380242,
+    "lon": 2.1733951
+  },
+  "Teatre CAT de Gràcia": {
+    "lat": 41.3968292,
+    "lon": 2.1560889
+  },
+  "Parc Francesc Macià/ Pabelló": null,
+  "Parc Francesc Macià/ Pabelló, Catalunya": null,
+  "Pati Casal 3a Edat": null,
+  "Pati Casal 3a Edat, Catalunya": null,
+  "Pavelló Joan Creus": {
+    "lat": 41.50153,
+    "lon": 2.1569363
+  },
+  "Pista poliesportiva coberta": {
+    "lat": 41.7505094,
+    "lon": 1.804758
+  },
+  "Plaça de la Catedral": {
+    "lat": 41.9872005,
+    "lon": 2.8256516
+  },
+  "Pou d'en Fèlix": {
+    "lat": 41.3767977,
+    "lon": 2.082495
+  },
+  "Parc de la Guineueta": {
+    "lat": 41.4409692,
+    "lon": 2.1720111
+  },
+  "La Sala": {
+    "lat": 41.8182399,
+    "lon": 1.7293322
+  },
+  "Parc Francesc Macià": {
+    "lat": 40.8167236,
+    "lon": 0.5149808
+  },
+  "Plaça Doctor Guardiet": {
+    "lat": 41.4918492,
+    "lon": 2.0298905
+  },
+  "Catedral de Tarragona": {
+    "lat": 41.1193522,
+    "lon": 1.2580677
+  },
+  "Plaça Antoni Pujades (Plaça del Sorli)": null,
+  "Plaça Antoni Pujades (Plaça del Sorli), Catalunya": null,
+  "Plaça de les Mèlies": {
+    "lat": 41.6262341,
+    "lon": 2.6894469
+  },
+  "Carrer Valladolid": {
+    "lat": 41.3778691,
+    "lon": 2.1365671
+  },
+  "Plaça les Amèlies": null,
+  "Plaça les Amèlies, Catalunya": null,
+  "Parc de la Nova Cançó Catalana": null,
+  "Parc de la Nova Cançó Catalana, Catalunya": null,
+  "Plaça del Nou Raigs": null,
+  "Plaça del Nou Raigs, Catalunya": null,
+  "Plaça de Toros": {
+    "lat": 41.1144227,
+    "lon": 1.245713
+  },
+  "Plaça Picaso": {
+    "lat": 41.5052017,
+    "lon": 2.3890907
+  },
+  "Ermita de Sant Muç": {
+    "lat": 41.5090748,
+    "lon": 2.0221887
+  },
+  "Parc de can Mercader": {
+    "lat": 41.3574697,
+    "lon": 2.0849599
+  },
+  "Parc de l'Espanya Industrial": {
+    "lat": 41.3777523,
+    "lon": 2.1409226
+  },
+  "El Centre Catòlic": {
+    "lat": 41.3920349,
+    "lon": 2.0084724
+  },
+  "Plaça de Cal Negre": {
+    "lat": 42.1021413,
+    "lon": 1.844625
+  },
+  "Poliesportiu": {
+    "lat": 41.1399815,
+    "lon": 1.2499798
+  },
+  "Auditori Barrades": null,
+  "Auditori Barrades, Catalunya": null,
+  "Pati Casal Avis": null,
+  "Pati Casal Avis, Catalunya": null,
+  "Pista coberta": {
+    "lat": 41.8288571,
+    "lon": 1.8936767
+  },
+  "Parc Pompeu Fabra": {
+    "lat": 41.3856545,
+    "lon": 2.0997576
+  },
+  "Parc de Can Solei": {
+    "lat": 41.456455,
+    "lon": 2.2539372
+  },
+  "Plaça del Poble": {
+    "lat": 41.48239,
+    "lon": 2.165967
+  },
+  "c/ Valladolid": {
+    "lat": 40.0903151,
+    "lon": 0.1447847
+  },
+  "Claustre Escola Pia": null,
+  "Claustre Escola Pia, Catalunya": null,
+  "Can Campasol": {
+    "lat": 41.6437525,
+    "lon": 2.7440225
+  },
+  "Jardins UNNIM": null,
+  "Jardins UNNIM, Catalunya": null,
+  "Plaça de Braus": {
+    "lat": 41.1144227,
+    "lon": 1.245713
+  },
+  "Plaça Pablo": {
+    "lat": 41.4020287,
+    "lon": 2.178709
+  },
+  "Pista del Casal": null,
+  "Pista del Casal, Catalunya": null,
+  "Plaça del Monestir": {
+    "lat": 42.1205057,
+    "lon": 2.768942
+  },
+  "Plaça de lÁjuntament": null,
+  "Plaça de lÁjuntament, Catalunya": null,
+  "Plaça Sant Agustí": {
+    "lat": 41.558938,
+    "lon": 2.0945084
+  },
+  "c/ Santa Magdalena, 12 (Cercle Catòlic Gràcia)": null,
+  "c/ Santa Magdalena, Catalunya": {
+    "lat": 41.810932,
+    "lon": 2.0951588
+  },
+  "Parc e la Ciutadella": {
+    "lat": 41.4787384,
+    "lon": 2.2698954
+  },
+  "Pavelló Poliesportiu": {
+    "lat": 41.1322184,
+    "lon": 1.2405696
+  },
+  "Pati casal d'avis": null,
+  "Pati casal d'avis, Catalunya": null,
+  "Pista coberta costat del tren": null,
+  "Pista coberta costat del tren, Catalunya": null,
+  "El Passeig": {
+    "lat": 41.8648092,
+    "lon": 1.9707172
+  },
+  "Plaça del Comú": {
+    "lat": 42.5247351,
+    "lon": 0.8259526
+  },
+  "Escola Pia": {
+    "lat": 41.6052662,
+    "lon": 2.2872468
+  },
+  "Plaça Espanya Industrial": {
+    "lat": 41.323138,
+    "lon": 2.0303624
+  },
+  "Passeig Mar": {
+    "lat": 41.3791665,
+    "lon": 2.1803047
+  },
+  "Centre Catòlic": {
+    "lat": 41.3615269,
+    "lon": 2.101403
+  },
+  "Plaça les Arenes": {
+    "lat": 41.5705426,
+    "lon": 2.0348017
+  },
+  "Plaça le Pablo": {
+    "lat": 42.4850611,
+    "lon": 2.7488909
+  },
+  "Claustre de Sant Ignasi": null,
+  "Claustre de Sant Ignasi, Catalunya": null,
+  "Bosc de can Rull": null,
+  "Bosc de can Rull, Catalunya": null,
+  "Parc Central": {
+    "lat": 42.5059789,
+    "lon": 1.5258493
+  },
+  "Aules Senior,c/ Pujol ,15": null,
+  "c/ Pujol, Catalunya": {
+    "lat": 41.4651446,
+    "lon": 2.0707739
+  },
+  "Residència Sant Josep": {
+    "lat": 41.9779978,
+    "lon": 1.8787999
+  },
+  "Plaça Catedral": {
+    "lat": 41.3841563,
+    "lon": 2.1773945
+  },
+  "Palau de la Música": {
+    "lat": 41.3875837,
+    "lon": 2.1752316
+  },
+  "Conservatori de Música ( el Bruch)": null,
+  "Conservatori de Música ( el Bruch), Catalunya": null,
+  "Creu del Padró": {
+    "lat": 42.0388233,
+    "lon": 2.9129709
+  },
+  "Can Negre": {
+    "lat": 41.3674391,
+    "lon": 2.0578015
+  },
+  "Casal Jubilats": {
+    "lat": 41.6527558,
+    "lon": 0.3896326
+  },
+  "Parc Can Mercader": {
+    "lat": 41.3574697,
+    "lon": 2.0849599
+  },
+  "teatre la Lliga": {
+    "lat": 41.5301367,
+    "lon": 1.6858618
+  },
+  "Plaça Carles Pi i Sunyer": null,
+  "Plaça Carles Pi i Sunyer, Catalunya": null,
+  "Barcelona Plaça de la Catedral": {
+    "lat": 41.9282173,
+    "lon": 2.2549253
+  },
+  "Auditori": {
+    "lat": 41.3987917,
+    "lon": 2.1855396
+  },
+  "Plaça Monestir": {
+    "lat": 41.4732397,
+    "lon": 2.0858864
+  },
+  "Plaça de la Mercè": {
+    "lat": 41.3792148,
+    "lon": 2.1794153
+  },
+  "Sitges-Cap de la Vila": {
+    "lat": 41.2366218,
+    "lon": 1.8095619
+  },
+  "Catedral Tarragona": {
+    "lat": 41.1193522,
+    "lon": 1.2580677
+  },
+  "Parc Can Solei": {
+    "lat": 41.456455,
+    "lon": 2.2539372
+  },
+  "Plaça dels Arinsols": null,
+  "Plaça dels Arinsols, Catalunya": null,
+  "Parc Espanya Industrial": {
+    "lat": 41.3777523,
+    "lon": 2.1409226
+  },
+  "Passeig de les Palmeres": {
+    "lat": 41.1147205,
+    "lon": 1.2573333
+  },
+  "Plaça de les Arenes (Braus)": null,
+  "Plaça de les Arenes (Braus), Catalunya": null,
+  "Davant Mercat de la Llibertat": null,
+  "Davant Mercat de la Llibertat, Catalunya": null,
+  "Sant Cugat. Plaça del Mnestir": null,
+  "Sant Cugat. Plaça del Mnestir, Catalunya": null,
+  "carrer Bailèn": {
+    "lat": 42.1142112,
+    "lon": 0.5652492
+  },
+  "Plaça Augusta": {
+    "lat": 41.474144,
+    "lon": 2.0841739
+  },
+  "Sala Ovidi Montllor": {
+    "lat": 41.3716143,
+    "lon": 2.1569306
+  },
+  "Pavelló Can Dragó": null,
+  "Pavelló Can Dragó, Catalunya": null,
+  "Sala SGAE": null,
+  "Sala SGAE, Catalunya": null,
+  "Barcelona- Sarrià": {
+    "lat": 41.3993851,
+    "lon": 2.1183797
+  },
+  "Patronat de Cornellà": null,
+  "Patronat de Cornellà, Catalunya": null,
+  "Cal Negre": {
+    "lat": 42.1561987,
+    "lon": 1.9482222
+  },
+  "Casal de Cultura": {
+    "lat": 41.4265812,
+    "lon": 2.2235115
+  },
+  "Plaça Soller": {
+    "lat": 41.223196,
+    "lon": 1.7244738
+  },
+  "Pla Catedral": {
+    "lat": 42.5991415,
+    "lon": 2.9720303
+  },
+  "Parc de Can Vidalet": {
+    "lat": 41.3752158,
+    "lon": 2.0971837
+  },
+  "Parc Can Vidalet": {
+    "lat": 41.3747524,
+    "lon": 2.0965617
+  },
+  "Plaça de la Porxada": {
+    "lat": 41.6080241,
+    "lon": 2.287474
+  },
+  "Plaça Esglèsia": {
+    "lat": 41.7061726,
+    "lon": 0.322264
+  },
+  "El Retiro - Passeig Marítim": null,
+  "El Retiro - Passeig Marítim, Catalunya": null,
+  "Ajuntament- El Prado": null,
+  "Ajuntament- El Prado, Catalunya": null,
+  "Passeig Marítim": {
+    "lat": 41.4515343,
+    "lon": 2.2556483
+  },
+  "Catedral": {
+    "lat": 41.3839296,
+    "lon": 2.1765539
+  },
+  "El Parc": {
+    "lat": 41.3895642,
+    "lon": 2.1838271
+  },
+  "Casal Gent Gran": {
+    "lat": 41.9768859,
+    "lon": 2.8058589
+  },
+  "Plaça del Pati": {
+    "lat": 41.2855854,
+    "lon": 1.2503773
+  },
+  "Plaça Arinsols": null,
+  "Plaça Arinsols, Catalunya": null,
+  "Barri de Sants": {
+    "lat": 41.3784133,
+    "lon": 2.1380091
+  },
+  "Passeig Manel Puigvert": null,
+  "Passeig Manel Puigvert, Catalunya": null,
+  "Devant Centre Cultural": null,
+  "Devant Centre Cultural, Catalunya": null,
+  "Passeig Palmeres": {
+    "lat": 41.523147,
+    "lon": 2.3693814
+  },
+  "Auditori Pau Casals": {
+    "lat": 41.1838854,
+    "lon": 1.5409713
+  },
+  "Teatre Le Foment": null,
+  "Teatre Le Foment, Catalunya": null,
+  "Plaça de braus Les Arenes": null,
+  "Plaça de braus Les Arenes, Catalunya": null,
+  "Parc Municipal Torres i Villar": null,
+  "Parc Municipal Torres i Villar, Catalunya": null,
+  "Mercat La Llibertat ( al davant )": null,
+  "Mercat La Llibertat ( al davant ), Catalunya": null,
+  "Font de Can Rull": {
+    "lat": 41.5512156,
+    "lon": 2.0863695
+  },
+  "Plaça Octavià (Al costat del Monestir)": null,
+  "Plaça Octavià (Al costat del Monestir), Catalunya": null,
+  "plaça de l'hermita": null,
+  "plaça de l'hermita, Catalunya": null,
+  "^pati de la Residència St. Josep": null,
+  "^pati de la Residència St. Josep, Catalunya": null,
+  "Les Pistes": {
+    "lat": 41.7338743,
+    "lon": 1.8492704
+  },
+  "Isla Fantasía": {
+    "lat": 41.5028889,
+    "lon": 2.3637109
+  },
+  "Plaça Benet i Boixí, a les Cotxeres de Sants": null,
+  "Plaça Benet i Boixí, Catalunya": null,
+  "Plaça Benet i Boixí": null,
+  "Carrer Bailén (A confirmar)": null,
+  "Carrer Bailén (A confirmar), Catalunya": null,
+  "Plaça Llibertat": {
+    "lat": 41.9746029,
+    "lon": 2.7912677
+  },
+  "Sta. Cristina": {
+    "lat": 41.6893904,
+    "lon": 2.8124276
+  },
+  "Plaça Dansa": {
+    "lat": 41.6888293,
+    "lon": 2.1642708
+  },
+  "Teatre \"La Sala\"": {
+    "lat": 41.4874233,
+    "lon": 2.0353916
+  },
+  "Hermita de Bellvitge": null,
+  "Hermita de Bellvitge, Catalunya": null,
+  "Teatre Metropol": {
+    "lat": 41.1146371,
+    "lon": 1.2533248
+  },
+  "Centre \"El social\"": {
+    "lat": 41.5627334,
+    "lon": 2.0129401
+  },
+  "Carpa pista de Sant Miquel": null,
+  "Carpa pista de Sant Miquel, Catalunya": null,
+  "Monestir de Montserrat": {
+    "lat": 41.5933622,
+    "lon": 1.8374812
+  },
+  "L'Avenç": {
+    "lat": 41.3771018,
+    "lon": 2.0857232
+  },
+  "Plaça del Dr. Guardiet": null,
+  "Plaça del Dr. Guardiet, Catalunya": null,
+  "Can Campesol": null,
+  "Can Campesol, Catalunya": null,
+  "Pati del Casal d'avis": null,
+  "Pati del Casal d'avis, Catalunya": null,
+  "Església del Clot": {
+    "lat": 41.4125237,
+    "lon": 2.1757342
+  },
+  "Teatre \"reformat\"": null,
+  "Teatre \"reformat\", Catalunya": null,
+  "Parc Can Mercadé": null,
+  "Parc Can Mercadé, Catalunya": null,
+  "Parròquia Maria de Jesús": null,
+  "Parròquia Maria de Jesús, Catalunya": null,
+  "Parc de la Guineu (Roquetes)": null,
+  "Parc de la Guineu (Roquetes), Catalunya": null,
+  "Cap de la Vila": {
+    "lat": 42.4766971,
+    "lon": 0.7158606
+  },
+  "Pati de l'Hotel El Retiro": null,
+  "Pati de l'Hotel El Retiro, Catalunya": null,
+  "Pati de l'Hotel El Prado": null,
+  "Pati de l'Hotel El Prado, Catalunya": null,
+  "Ajuntament": {
+    "lat": 41.1461119,
+    "lon": 0.8201252
+  },
+  "Plaça de la Font": {
+    "lat": 41.7295686,
+    "lon": 1.8388761
+  },
+  "Al Parc": {
+    "lat": 41.2617442,
+    "lon": 1.831472
+  },
+  "Davant l'Auditori Pau Casals": null,
+  "Davant l'Auditori Pau Casals, Catalunya": null,
+  "Les Llosses": {
+    "lat": 42.1506279,
+    "lon": 2.1166718
+  },
+  "Passeig Marítim - Plaça Josep Ibern": null,
+  "Passeig Marítim - Plaça Josep Ibern, Catalunya": null,
+  "Davant del restaurant \"Le Pablo\"": null,
+  "Davant del restaurant \"Le Pablo\", Catalunya": null,
+  "Parc Nou": {
+    "lat": 42.1715317,
+    "lon": 2.4799752
+  },
+  "Parc Municipal Torras i Villà.": null,
+  "Parc Municipal Torras i Villà., Catalunya": null,
+  "Terrassa. Plaça Mercat Independència": {
+    "lat": 41.5633584,
+    "lon": 2.00847
+  },
+  "Begues. Plaça de l'Església": null,
+  "Begues. Plaça de l'Església, Catalunya": null,
+  "Sant Andreu de Llavaneres. Casal de Llavaneres": null,
+  "Sant Andreu de Llavaneres. Casal de Llavaneres, Catalunya": null,
+  "Barcelona. Pla de la Catedral": {
+    "lat": 41.3839296,
+    "lon": 2.1765539
+  },
+  "Sabadell. Font de Can Rull": {
+    "lat": 41.5512156,
+    "lon": 2.0863695
+  },
+  "Sant Cugat del Vallès. Davant l'ajuntament nou. Rambla del Celler": null,
+  "Sant Cugat del Vallès. Davant l'ajuntament nou. Rambla del Celler, Catalunya": null,
+  "Agramunt. Passeig J. Brufau": null,
+  "Agramunt. Passeig J. Brufau, Catalunya": null,
+  "Sant Joan Despí. Plaça de l'Hermita": null,
+  "Sant Joan Despí. Plaça de l'Hermita, Catalunya": null,
+  "Calella. Passeig Puigvert": {
+    "lat": 41.6119318,
+    "lon": 2.6581749
+  },
+  "Barcelona. Passeig de Sant Joan": {
+    "lat": 41.3926962,
+    "lon": 2.178536
+  },
+  "Barcelona. Moll de la Fusta.": {
+    "lat": 41.3781196,
+    "lon": 2.1807974
+  },
+  "Cardedeu. Parc Pompeu Fabra": {
+    "lat": 41.6418764,
+    "lon": 2.3528891
+  },
+  "Mataró. Residència Sant Josep.": null,
+  "Mataró. Residència Sant Josep., Catalunya": null,
+  "Cornellà. Parc de les aigües.": {
+    "lat": 41.3571695,
+    "lon": 2.0633478
+  },
+  "El Vendrell. La Rambla": {
+    "lat": 41.2206838,
+    "lon": 1.5366824
+  },
+  "El Vendrell. Plaça de la Sardana": {
+    "lat": 41.2188414,
+    "lon": 1.5374604
+  },
+  "Llerona": {
+    "lat": 41.648239,
+    "lon": 2.2987482
+  }
 }

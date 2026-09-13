@@ -1,5 +1,23 @@
 [
   {
+    "id": "calendar-2ldn28p29eql3uoeuvbe27alau-google-com-2026-09-13-17-30-00-000-",
+    "day": "13",
+    "month": "SET.",
+    "dateTime": "2026-09-13T17:30:00.000Z",
+    "title": "Ballada-Jafre",
+    "place": "Jafre · Plaça del Castell",
+    "town": "Jafre",
+    "time": "19.30 h",
+    "type": "Sardanes",
+    "source": "https://calendar.google.com/calendar/event?eid=MmxkbjI4cDI5ZXFsM3VvZXV2YmUyN2FsYXUgbGFsbG9icmVnYXRAZ21haWwuY29t",
+    "monthKey": "2026-09",
+    "monthLabel": "Setembre 2026",
+    "mapPosition": {
+      "left": "76.81%",
+      "top": "34.32%"
+    }
+  },
+  {
     "id": "calendar-3j8qlgiclgemjkqj533pqjkkjd-google-com-2026-09-13-16-00-00-000-",
     "day": "13",
     "month": "SET.",

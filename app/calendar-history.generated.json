@@ -1,5 +1,23 @@
 [
   {
+    "id": "calendar-1c27k851lkjeg3e6f6ee18mbbk-google-com-2026-09-14-16-30-00-000-",
+    "day": "14",
+    "month": "SET.",
+    "dateTime": "2026-09-14T16:30:00.000Z",
+    "title": "Ballada-Sant Joan de les Abadesses",
+    "place": "Sant Joan de les Abadesses · Passeig del Comte Guifré",
+    "town": "Sant Joan de les Abadesses",
+    "time": "18.30 h",
+    "type": "Sardanes",
+    "source": "https://calendar.google.com/calendar/event?eid=MWMyN2s4NTFsa2plZzNlNmY2ZWUxOG1iYmsgbGFsbG9icmVnYXRAZ21haWwuY29t",
+    "monthKey": "2026-09",
+    "monthLabel": "Setembre 2026",
+    "mapPosition": {
+      "left": "58.38%",
+      "top": "30.05%"
+    }
+  },
+  {
     "id": "calendar-2ldn28p29eql3uoeuvbe27alau-google-com-2026-09-13-17-30-00-000-",
     "day": "13",
     "month": "SET.",

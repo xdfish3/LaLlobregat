@@ -17,6 +17,24 @@ type CalendarEvent = {
 
 const weekdays = ["Dl.", "Dt.", "Dc.", "Dj.", "Dv.", "Ds.", "Dg."];
 
+// Alguns events porten el poble ja inclòs dins de "place" (p. ex.
+// "Calafell · Plaça del Manila"), i com que "town" també és "Calafell",
+// en concatenar-los surt el poble repetit. Aquesta funció treu el poble
+// del davant de "place" si ja hi és, per mostrar-lo un únic cop.
+function cleanPlace(town: string, place: string) {
+  const trimmedTown = town.trim();
+  const trimmedPlace = place.trim();
+  const prefix = `${trimmedTown} ·`;
+
+  if (trimmedPlace.startsWith(prefix)) {
+    return trimmedPlace.slice(prefix.length).trim();
+  }
+  if (trimmedPlace === trimmedTown) {
+    return "";
+  }
+  return trimmedPlace;
+}
+
 function getTodayKey() {
   const dateParts = new Intl.DateTimeFormat("en-CA", {
     timeZone: "Europe/Madrid",
@@ -142,17 +160,22 @@ export function AgendaCalendar({ events }: { events: CalendarEvent[] }) {
                 >
                   {day ? <span className="agendaCalendarDayNumber">{day}</span> : null}
                   <div className="agendaCalendarEvents">
-                    {dayEvents.map((event) => (
-                      <div
-                        className="agendaCalendarEvent"
-                        key={event.id}
-                        title={`${event.time} · ${event.title} · ${event.town} · ${event.place}`}
-                      >
-                        <time dateTime={event.dateTime}>{event.time}</time>
-                        <strong>{event.title}</strong>
-                        <span>{event.town} · {event.place}</span>
-                      </div>
-                    ))}
+                    {dayEvents.map((event) => {
+                      const displayPlace = cleanPlace(event.town, event.place);
+                      const locationLabel = displayPlace ? `${event.town} · ${displayPlace}` : event.town;
+
+                      return (
+                        <div
+                          className="agendaCalendarEvent"
+                          key={event.id}
+                          title={`${event.time} · ${event.title} · ${locationLabel}`}
+                        >
+                          <time dateTime={event.dateTime}>{event.time}</time>
+                          <strong>{event.title}</strong>
+                          <span>{locationLabel}</span>
+                        </div>
+                      );
+                    })}
                   </div>
                 </div>
               );

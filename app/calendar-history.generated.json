@@ -1,5 +1,23 @@
 [
   {
+    "id": "calendar-1ajjiq5211t0hibkd8igfgu64i-google-com-2026-09-20-14-30-00-000-",
+    "day": "20",
+    "month": "SET.",
+    "dateTime": "2026-09-20T14:30:00.000Z",
+    "title": "Aplec-Torroella de Montgrí",
+    "place": "Torroella de Montgrí · Plaça de la Vila",
+    "town": "Torroella de Montgrí",
+    "time": "16.30 h",
+    "type": "Sardanes",
+    "source": "https://calendar.google.com/calendar/event?eid=MWFqamlxNTIxMXQwaGlia2Q4aWdmZ3U2NGkgbGFsbG9icmVnYXRAZ21haWwuY29t",
+    "monthKey": "2026-09",
+    "monthLabel": "Setembre 2026",
+    "mapPosition": {
+      "left": "79.76%",
+      "top": "35.20%"
+    }
+  },
+  {
     "id": "calendar-0c8mf2qv9o5s3k8333tkq9mvdt-google-com-2026-09-20-09-15-00-000-",
     "day": "20",
     "month": "SET.",

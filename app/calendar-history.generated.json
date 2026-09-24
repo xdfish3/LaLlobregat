@@ -1,5 +1,23 @@
 [
   {
+    "id": "calendar-0fj6vi1u6dttris692gn015kfc-google-com-2026-09-24-16-00-00-000-",
+    "day": "24",
+    "month": "SET.",
+    "dateTime": "2026-09-24T16:00:00.000Z",
+    "title": "Ballada-Barcelona",
+    "place": "Barcelona · Plaça de la Mercè",
+    "town": "Barcelona",
+    "time": "18.00 h",
+    "type": "Sardanes",
+    "source": "https://calendar.google.com/calendar/event?eid=MGZqNnZpMXU2ZHR0cmlzNjkyZ24wMTVrZmMgbGFsbG9icmVnYXRAZ21haWwuY29t",
+    "monthKey": "2026-09",
+    "monthLabel": "Setembre 2026",
+    "mapPosition": {
+      "left": "57.19%",
+      "top": "58.80%"
+    }
+  },
+  {
     "id": "calendar-1ajjiq5211t0hibkd8igfgu64i-google-com-2026-09-20-14-30-00-000-",
     "day": "20",
     "month": "SET.",

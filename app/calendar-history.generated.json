@@ -1,5 +1,23 @@
 [
   {
+    "id": "calendar-7s4gf2si5qt2b3djeupnu24ma0-google-com-2026-09-26-15-00-00-000-",
+    "day": "26",
+    "month": "SET.",
+    "dateTime": "2026-09-26T15:00:00.000Z",
+    "title": "Ballada-Caldes de Malavella",
+    "place": "Caldes de Malavella · Rambla d'En Rufí",
+    "town": "Caldes de Malavella",
+    "time": "17.00 h",
+    "type": "Sardanes",
+    "source": "https://calendar.google.com/calendar/event?eid=N3M0Z2Yyc2k1cXQyYjNkamV1cG51MjRtYTAgbGFsbG9icmVnYXRAZ21haWwuY29t",
+    "monthKey": "2026-09",
+    "monthLabel": "Setembre 2026",
+    "mapPosition": {
+      "left": "72.16%",
+      "top": "42.84%"
+    }
+  },
+  {
     "id": "calendar-0fj6vi1u6dttris692gn015kfc-google-com-2026-09-24-16-00-00-000-",
     "day": "24",
     "month": "SET.",

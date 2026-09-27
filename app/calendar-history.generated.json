@@ -1,5 +1,23 @@
 [
   {
+    "id": "calendar-7lkf37haeggqcs94pnkqoitph1-google-com-2026-09-27-14-30-00-000-",
+    "day": "27",
+    "month": "SET.",
+    "dateTime": "2026-09-27T14:30:00.000Z",
+    "title": "Aplec-Sant Cugat del Vallès",
+    "place": "Sant Cugat del Vallès · Plaça d'Octavià",
+    "town": "Sant Cugat del Vallès",
+    "time": "16.30 h",
+    "type": "Sardanes",
+    "source": "https://calendar.google.com/calendar/event?eid=N2xrZjM3aGFlZ2dxY3M5NHBua3FvaXRwaDEgbGFsbG9icmVnYXRAZ21haWwuY29t",
+    "monthKey": "2026-09",
+    "monthLabel": "Setembre 2026",
+    "mapPosition": {
+      "left": "54.73%",
+      "top": "55.98%"
+    }
+  },
+  {
     "id": "calendar-ccom2e9o6sojeb9j6sojeb9kchj3abb2chijcb9n65hm2ohk70pjcc31co-google-com-2026-09-27-09-00-00-000-",
     "day": "27",
     "month": "SET.",

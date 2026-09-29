@@ -1,5 +1,23 @@
 [
   {
+    "id": "calendar-0aii5m65nk0dpvika77ei9te2b-google-com-2026-09-29-10-00-00-000-",
+    "day": "29",
+    "month": "SET.",
+    "dateTime": "2026-09-29T10:00:00.000Z",
+    "title": "Ballada-Molins de Rei",
+    "place": "Molins de Rei · Plaça de l'Església",
+    "town": "Molins de Rei",
+    "time": "12.00 h",
+    "type": "Sardanes",
+    "source": "https://calendar.google.com/calendar/event?eid=MGFpaTVtNjVuazBkcHZpa2E3N2VpOXRlMmIgbGFsbG9icmVnYXRAZ21haWwuY29t",
+    "monthKey": "2026-09",
+    "monthLabel": "Setembre 2026",
+    "mapPosition": {
+      "left": "53.11%",
+      "top": "58.00%"
+    }
+  },
+  {
     "id": "calendar-7lkf37haeggqcs94pnkqoitph1-google-com-2026-09-27-14-30-00-000-",
     "day": "27",
     "month": "SET.",

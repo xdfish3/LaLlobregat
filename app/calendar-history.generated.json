@@ -1,5 +1,23 @@
 [
   {
+    "id": "calendar-2bg27rnfbadsiiqqatkoij2cet-google-com-2026-10-04-09-45-00-000-",
+    "day": "04",
+    "month": "OCT.",
+    "dateTime": "2026-10-04T09:45:00.000Z",
+    "title": "Ballada-Barcelona",
+    "place": "Barcelona · Plaça de Can Fabra",
+    "town": "Barcelona",
+    "time": "11.45 h",
+    "type": "Sardanes",
+    "source": "https://calendar.google.com/calendar/event?eid=MmJnMjdybmZiYWRzaWlxcWF0a29pajJjZXQgbGFsbG9icmVnYXRAZ21haWwuY29t",
+    "monthKey": "2026-10",
+    "monthLabel": "Octubre 2026",
+    "mapPosition": {
+      "left": "57.19%",
+      "top": "58.80%"
+    }
+  },
+  {
     "id": "calendar-3lh3pmtojc3bkn9birm7jp01f0-google-com-2026-10-03-14-30-00-000-",
     "day": "03",
     "month": "OCT.",

@@ -1,5 +1,23 @@
 [
   {
+    "id": "calendar-0jl7gi1abi7hl84jhg0fhv6ugo-google-com-2026-10-10-14-30-00-000-",
+    "day": "10",
+    "month": "OCT.",
+    "dateTime": "2026-10-10T14:30:00.000Z",
+    "title": "Aplec-Alpicat",
+    "place": "Alpicat · Espai Poliesportiu",
+    "town": "Alpicat",
+    "time": "16.30 h",
+    "type": "Sardanes",
+    "source": "https://calendar.google.com/calendar/event?eid=MGpsN2dpMWFiaTdobDg0amhnMGZodjZ1Z28gbGFsbG9icmVnYXRAZ21haWwuY29t",
+    "monthKey": "2026-10",
+    "monthLabel": "Octubre 2026",
+    "mapPosition": {
+      "left": "16.11%",
+      "top": "51.81%"
+    }
+  },
+  {
     "id": "calendar-0arnise1scd6alng3m56ftc77o-google-com-2026-10-10-09-30-00-000-",
     "day": "10",
     "month": "OCT.",

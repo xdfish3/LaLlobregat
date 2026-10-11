@@ -1,5 +1,23 @@
 [
   {
+    "id": "calendar-06a4a2u69vtbh7h9ll0bsm9bgn-google-com-2026-10-11-14-00-00-000-",
+    "day": "11",
+    "month": "OCT.",
+    "dateTime": "2026-10-11T14:00:00.000Z",
+    "title": "Aplec-Tossa de Mar",
+    "place": "Tossa de Mar · Passeig Mossèn Cinto Verdaguer",
+    "town": "Tossa de Mar",
+    "time": "16.00 h",
+    "type": "Sardanes",
+    "source": "https://calendar.google.com/calendar/event?eid=MDZhNGEydTY5dnRiaDdoOWxsMGJzbTliZ24gbGFsbG9icmVnYXRAZ21haWwuY29t",
+    "monthKey": "2026-10",
+    "monthLabel": "Octubre 2026",
+    "mapPosition": {
+      "left": "75.46%",
+      "top": "46.29%"
+    }
+  },
+  {
     "id": "calendar-4gkadfjhlos588lg5tuh3jlonu-google-com-2026-10-11-08-30-00-000-",
     "day": "11",
     "month": "OCT.",

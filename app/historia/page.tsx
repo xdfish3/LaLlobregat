@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import historyEvents from "../calendar-history.generated.json";
+import archivePhotos from "./archive-photos.generated.json";
 import { sitePath } from "../site-path";
 import { HistoryArchive } from "./HistoryArchive";
 import { HistoryMap } from "./HistoryMap";
@@ -20,50 +21,6 @@ const milestones = [
   { year: "50+", title: "Una discografia extensa", text: "Més de cinquanta enregistraments documenten la seva evolució: el disc dirigit per Salvador Brotons (2004), les sardanes de Joan Jordi Beumala (2013), el treball del 90è aniversari (2019) i «Directe», enregistrat en viu al Pla de la Catedral de Barcelona. També hi consta l’adopció de la tenora barítona dins la cobla." },
   { year: "2025—26", title: "Nous diàlegs", text: "La Principal del Llobregat estrena un espectacle amb el Quartet Mèlt i obre el so de la cobla a noves complicitats, amb la veu lírica de Guillem Batllori i el piano d’Emma Stratton." },
   { year: "Avui", title: "Arrel i moviment", text: "Sota la direcció de Marcel Sabaté, la formació continua present en aplecs, cicles de concerts i festivals, mantenint viva una trajectòria que s’acosta al centenari." },
-];
-
-const archivePhotos = [
-  { file: "01-anys-30.jpg", width: 480, height: 384, label: "Anys 30", credit: "Fons documental Cobles, orquestres i músics de Catalunya" },
-  { file: "02-anys-30.jpg", width: 545, height: 366, label: "Anys 30", context: "A la Font de Can Ribot, a la Colònia Güell, durant la Festa de Germanor.", credit: "Fons documental Cobles, orquestres i músics de Catalunya" },
-  { file: "03-any-1948.jpg", width: 985, height: 597, label: "Any 1948", credit: "Fons documental Cobles, orquestres i músics de Catalunya" },
-  { file: "04-any-1962.jpg", width: 844, height: 855, label: "Any 1962", credit: "Pere Català i Pic (Arxiu Pere Català i Roca). Arxiu Nacional de Catalunya. © Hereus de Pere Català i Pic" },
-  { file: "05-any-1971.jpg", width: 1040, height: 648, label: "Any 1971", credit: "Arxiu Jaume Nonell. Fons Sabadell Sardanista" },
-  { file: "06-any-1971.jpg", width: 1040, height: 648, label: "Any 1971", credit: "Arxiu Jaume Nonell. Fons Sabadell Sardanista" },
-  { file: "07-any-1972.jpg", width: 992, height: 568, label: "Any 1972", credit: "Fons documental Cobles, orquestres i músics de Catalunya" },
-  { file: "08-any-1972.jpg", width: 1200, height: 827, label: "Any 1972", credit: "Arxiu Jaume Nonell" },
-  { file: "09-any-1973.jpg", width: 1200, height: 879, label: "Any 1973", credit: "Arxiu Anna Mª Pont i Soler" },
-  { file: "10-any-1974.jpg", width: 483, height: 351, label: "Any 1974", credit: "Fons documental Cobles, orquestres i músics de Catalunya" },
-  { file: "11-any-1974.jpg", width: 1200, height: 856, label: "Any 1974", credit: "Arxiu Toni Balada" },
-  { file: "12-any-1975.jpg", width: 1200, height: 859, label: "Any 1975", credit: "Arxiu Anna Mª Pont i Soler" },
-  { file: "13-any-1976.jpg", width: 1200, height: 800, label: "Any 1976", credit: "Arxiu Josep Carbonell i Mestre" },
-  { file: "14-any-1976.jpg", width: 1200, height: 800, label: "Any 1976", credit: "Arxiu Josep Carbonell i Mestre" },
-  { file: "15-any-1977.jpg", width: 1200, height: 845, label: "Any 1977", credit: "Fons documental Cobles, orquestres i músics de Catalunya" },
-  { file: "16-any-1977.jpg", width: 1040, height: 648, label: "Any 1977", credit: "Arxiu Jaume Nonell. Fons Sabadell Sardanista" },
-  { file: "17-any-1977.jpg", width: 953, height: 589, label: "Any 1977", credit: "Arxiu Jaume Nonell. Fons Sabadell Sardanista" },
-  { file: "18-any-1978.jpg", width: 389, height: 327, label: "Any 1978", credit: "Fons documental Cobles, orquestres i músics de Catalunya" },
-  { file: "19-any-1978.jpg", width: 1200, height: 768, label: "Any 1978", credit: "Arxiu Jaume Nonell" },
-  { file: "20-any-1979.jpg", width: 1065, height: 766, label: "Any 1979", credit: "Arxiu Jaume Nonell" },
-  { file: "21-any-1980.jpg", width: 1200, height: 836, label: "Any 1980", credit: "Ajuntament de Girona, CRDI (Fons El Punt)" },
-  { file: "22-any-1981.jpg", width: 300, height: 210, label: "Any 1981", credit: "Fons documental Cobles, orquestres i músics de Catalunya" },
-  { file: "23-any-1981.jpg", width: 1200, height: 795, label: "Any 1981", credit: "Arxiu Toni Balada" },
-  { file: "24-anys-80.jpg", width: 1200, height: 885, label: "Anys 80", credit: "Arxiu Toni Balada" },
-  { file: "25-any-1991.jpg", width: 1200, height: 843, label: "Any 1991", credit: "Arxiu Toni Balada" },
-  { file: "26-any-1994.jpg", width: 1200, height: 833, label: "Any 1994", credit: "Arxiu Toni Balada" },
-  { file: "27-any-1998.jpg", width: 1200, height: 735, label: "Any 1995", credit: "Fons documental Cobles, orquestres i músics de Catalunya" },
-  { file: "28-any-2001.jpg", width: 756, height: 475, label: "Any 2001", credit: "Anna Ballesteros" },
-  { file: "29-any-2004.jpg", width: 498, height: 336, label: "Any 2004", credit: "Fons documental Cobles, orquestres i músics de Catalunya" },
-  { file: "30-any-2004.jpg", width: 497, height: 315, label: "Any 2004", credit: "Fons documental Cobles, orquestres i músics de Catalunya" },
-  { file: "31-any-2004.jpg", width: 1014, height: 664, label: "Any 2004", credit: "Fons documental Cobles, orquestres i músics de Catalunya" },
-  { file: "32-any-2009.jpg", width: 1200, height: 716, label: "Any 2009", credit: "Fons documental Cobles, orquestres i músics de Catalunya" },
-  { file: "33-any-2010.jpg", width: 1200, height: 796, label: "Any 2010", credit: "Fons documental Cobles, orquestres i músics de Catalunya" },
-  { file: "34-any-2011.jpg", width: 638, height: 378, label: "Any 2011", credit: "Fons documental Cobles, orquestres i músics de Catalunya" },
-  { file: "35-any-2011.jpg", width: 600, height: 400, label: "Any 2011", credit: "Fons documental Cobles, orquestres i músics de Catalunya" },
-  { file: "36-any-2011.jpg", width: 723, height: 527, label: "Any 2011", credit: "Fons documental Cobles, orquestres i músics de Catalunya" },
-  { file: "37-any-2012.jpg", width: 692, height: 461, label: "Any 2012", credit: "Fons documental Cobles, orquestres i músics de Catalunya" },
-  { file: "38-any-2014.jpg", width: 1200, height: 786, label: "Any 2014", credit: "Jaume Nonell" },
-  { file: "39-any-2014.jpg", width: 1200, height: 775, label: "Any 2014", credit: "Jaume Nonell" },
-  { file: "40-any-2016.jpg", width: 1200, height: 928, label: "Any 2016", credit: "Jaume Nonell" },
-  { file: "41-any-2017.jpg", width: 1200, height: 900, label: "Any 2017", credit: "Jaume Nonell" },
 ];
 
 const blogUrl = "https://fotosformacionsmusicalsdecatalunya.blogspot.com/";
@@ -87,14 +44,11 @@ export default function HistoriaPage() {
             <h2 id="arxiu-title">Gairebé un segle<br /><em>en imatges.</em></h2>
           </div>
           <p>
-            Les {archivePhotos.length} fotografies del fons documental <em>Cobles,
-            orquestres i músics de Catalunya</em>, dels anys trenta fins a l’aplec
-            d’Encamp del 2017. Cada imatge conserva el crèdit de l’arxiu d’origen
-            i, quan se’n coneixen, els noms dels músics que hi surten.
+            Fotografies classificades en tres etapes: històriques, inicis i actuals.
           </p>
         </div>
 
-        <HistoryArchive photos={archivePhotos} thumbBase={sitePath("/historia/min/")} fullBase={sitePath("/historia/")} />
+        <HistoryArchive photos={archivePhotos} thumbBase={sitePath("/historia/album/thumbs/")} fullBase={sitePath("/historia/album/full/")} />
       </section>
 
       <section className="historyPortrait sectionPad" aria-labelledby="formacio-avui">

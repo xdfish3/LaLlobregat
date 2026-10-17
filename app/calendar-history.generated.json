@@ -1,5 +1,23 @@
 [
   {
+    "id": "calendar-6mcscgfqvji0kpdmfeph5qd2r8-google-com-2026-10-17-09-00-00-000-",
+    "day": "17",
+    "month": "OCT.",
+    "dateTime": "2026-10-17T09:00:00.000Z",
+    "title": "Ballada-Cabrera de Mar",
+    "place": "Cabrera de Mar · La Plaça Nova",
+    "town": "Cabrera de Mar",
+    "time": "11.00 h",
+    "type": "Sardanes",
+    "source": "https://calendar.google.com/calendar/event?eid=Nm1jc2NnZnF2amkwa3BkbWZlcGg1cWQycjggbGFsbG9icmVnYXRAZ21haWwuY29t",
+    "monthKey": "2026-10",
+    "monthLabel": "Octubre 2026",
+    "mapPosition": {
+      "left": "62.32%",
+      "top": "53.59%"
+    }
+  },
+  {
     "id": "calendar-06a4a2u69vtbh7h9ll0bsm9bgn-google-com-2026-10-11-14-00-00-000-",
     "day": "11",
     "month": "OCT.",

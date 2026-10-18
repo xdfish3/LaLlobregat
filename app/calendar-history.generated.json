@@ -1,5 +1,23 @@
 [
   {
+    "id": "calendar-64id97h0iq8rts7ln6o0p4nnsj-google-com-2026-10-18-14-00-00-000-",
+    "day": "18",
+    "month": "OCT.",
+    "dateTime": "2026-10-18T14:00:00.000Z",
+    "title": "Aplec-Barcelona",
+    "place": "Barcelona · Parc de la Guineueta",
+    "town": "Barcelona",
+    "time": "16.00 h",
+    "type": "Sardanes",
+    "source": "https://calendar.google.com/calendar/event?eid=NjRpZDk3aDBpcThydHM3bG42bzBwNG5uc2ogbGFsbG9icmVnYXRAZ21haWwuY29t",
+    "monthKey": "2026-10",
+    "monthLabel": "Octubre 2026",
+    "mapPosition": {
+      "left": "57.19%",
+      "top": "58.80%"
+    }
+  },
+  {
     "id": "calendar-24k89of5333i257n2fh3etl4tb-google-com-2026-10-18-08-30-00-000-",
     "day": "18",
     "month": "OCT.",

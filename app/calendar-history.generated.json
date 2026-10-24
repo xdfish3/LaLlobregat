@@ -1,5 +1,23 @@
 [
   {
+    "id": "calendar-6u7p7f2arj3fduc9cot5rnv1l8-google-com-2026-10-24-16-00-00-000-",
+    "day": "24",
+    "month": "OCT.",
+    "dateTime": "2026-10-24T16:00:00.000Z",
+    "title": "CONCERT MÈLT-Hospitalet de Llobregat",
+    "place": "L'Hospitalet de Llobregat · Auditori Barradas",
+    "town": "L'Hospitalet de Llobregat",
+    "time": "18.00 h",
+    "type": "Concert",
+    "source": "https://calendar.google.com/calendar/event?eid=NnU3cDdmMmFyajNmZHVjOWNvdDVybnYxbDggbGFsbG9icmVnYXRAZ21haWwuY29t",
+    "monthKey": "2026-10",
+    "monthLabel": "Octubre 2026",
+    "mapPosition": {
+      "left": "55.30%",
+      "top": "59.69%"
+    }
+  },
+  {
     "id": "calendar-64id97h0iq8rts7ln6o0p4nnsj-google-com-2026-10-18-14-00-00-000-",
     "day": "18",
     "month": "OCT.",

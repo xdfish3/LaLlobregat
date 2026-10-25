@@ -1,5 +1,23 @@
 [
   {
+    "id": "calendar-2tcumad87pijkct251ut11sr29-google-com-2026-10-25-10-15-00-000-",
+    "day": "25",
+    "month": "OCT.",
+    "dateTime": "2026-10-25T10:15:00.000Z",
+    "title": "Ballada-Barcelona",
+    "place": "Barcelona · Avinguda de la Catedral",
+    "town": "Barcelona",
+    "time": "11.15 h",
+    "type": "Sardanes",
+    "source": "https://calendar.google.com/calendar/event?eid=MnRjdW1hZDg3cGlqa2N0MjUxdXQxMXNyMjkgbGFsbG9icmVnYXRAZ21haWwuY29t",
+    "monthKey": "2026-10",
+    "monthLabel": "Octubre 2026",
+    "mapPosition": {
+      "left": "57.19%",
+      "top": "58.80%"
+    }
+  },
+  {
     "id": "calendar-6u7p7f2arj3fduc9cot5rnv1l8-google-com-2026-10-24-16-00-00-000-",
     "day": "24",
     "month": "OCT.",

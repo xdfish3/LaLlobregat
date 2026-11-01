@@ -1,5 +1,23 @@
 [
   {
+    "id": "calendar-7tddsu7hr7p8tf9s1tdih76m69-google-com-2026-11-01-15-30-00-000-",
+    "day": "01",
+    "month": "NOV.",
+    "dateTime": "2026-11-01T15:30:00.000Z",
+    "title": "Aplec-Esplugues de Llobregat",
+    "place": "Esplugues de Llobregat · Parc Pou d’en Fèlix",
+    "town": "Esplugues de Llobregat",
+    "time": "16.30 h",
+    "type": "Sardanes",
+    "source": "https://calendar.google.com/calendar/event?eid=N3RkZHN1N2hyN3A4dGY5czF0ZGloNzZtNjkgbGFsbG9icmVnYXRAZ21haWwuY29t",
+    "monthKey": "2026-11",
+    "monthLabel": "Novembre 2026",
+    "mapPosition": {
+      "left": "54.99%",
+      "top": "59.10%"
+    }
+  },
+  {
     "id": "calendar-0ip1iro331p83mmvcri73ap0o1-google-com-2026-11-01-09-30-00-000-",
     "day": "01",
     "month": "NOV.",

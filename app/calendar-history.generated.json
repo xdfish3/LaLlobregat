@@ -1,5 +1,23 @@
 [
   {
+    "id": "calendar-5kpno5j7qq9pdbt387rk3je35g-google-com-2026-11-08-10-30-00-000-",
+    "day": "08",
+    "month": "NOV.",
+    "dateTime": "2026-11-08T10:30:00.000Z",
+    "title": "Ballada-Cornellà de Llobregat",
+    "place": "Cornellà de Llobregat · Plaça de Lluís Companys",
+    "town": "Cornellà de Llobregat",
+    "time": "11.30 h",
+    "type": "Sardanes",
+    "source": "https://calendar.google.com/calendar/event?eid=NWtwbm81ajdxcTlwZGJ0Mzg3cmszamUzNWcgbGFsbG9icmVnYXRAZ21haWwuY29t",
+    "monthKey": "2026-11",
+    "monthLabel": "Novembre 2026",
+    "mapPosition": {
+      "left": "54.58%",
+      "top": "59.87%"
+    }
+  },
+  {
     "id": "calendar-0bbknvcrl5dtt720h0rtngfjnt-google-com-2026-11-07-16-00-00-000-",
     "day": "07",
     "month": "NOV.",

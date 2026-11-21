@@ -1,5 +1,41 @@
 [
   {
+    "id": "calendar-7ukmesm8kmas969bic3h9qltbl-google-com-2026-11-21-15-30-00-000-",
+    "day": "21",
+    "month": "NOV.",
+    "dateTime": "2026-11-21T15:30:00.000Z",
+    "title": "Aplec-Artesa de Segre",
+    "place": "Artesa de Segre · Pavelló Municipal",
+    "town": "Artesa de Segre",
+    "time": "16.30 h",
+    "type": "Sardanes",
+    "source": "https://calendar.google.com/calendar/event?eid=N3VrbWVzbThrbWFzOTY5YmljM2g5cWx0YmwgbGFsbG9icmVnYXRAZ21haWwuY29t",
+    "monthKey": "2026-11",
+    "monthLabel": "Novembre 2026",
+    "mapPosition": {
+      "left": "29.20%",
+      "top": "41.85%"
+    }
+  },
+  {
+    "id": "calendar-5q3vgh4nfj0h68klsj17f4hs5b-google-com-2026-11-21-10-30-00-000-",
+    "day": "21",
+    "month": "NOV.",
+    "dateTime": "2026-11-21T10:30:00.000Z",
+    "title": "Aplec-Artesa de Segre",
+    "place": "Artesa de Segre · Plaça del Ball",
+    "town": "Artesa de Segre",
+    "time": "11.30 h",
+    "type": "Sardanes",
+    "source": "https://calendar.google.com/calendar/event?eid=NXEzdmdoNG5majBoNjhrbHNqMTdmNGhzNWIgbGFsbG9icmVnYXRAZ21haWwuY29t",
+    "monthKey": "2026-11",
+    "monthLabel": "Novembre 2026",
+    "mapPosition": {
+      "left": "29.20%",
+      "top": "41.85%"
+    }
+  },
+  {
     "id": "calendar-4rm3qjbc2feag32qc9bmishc29-google-com-2026-11-15-15-30-00-000-",
     "day": "15",
     "month": "NOV.",

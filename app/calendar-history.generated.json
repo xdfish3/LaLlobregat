@@ -1,5 +1,23 @@
 [
   {
+    "id": "calendar-00kln1tuqmls21lakiigkm2kem-google-com-2026-11-22-16-00-00-000-",
+    "day": "22",
+    "month": "NOV.",
+    "dateTime": "2026-11-22T16:00:00.000Z",
+    "title": "Ballada-Sant Llorenç Savall",
+    "place": "Sant Llorenç Savall · Plaça de l'Església",
+    "town": "Sant Llorenç Savall",
+    "time": "17.00 h",
+    "type": "Sardanes",
+    "source": "https://calendar.google.com/calendar/event?eid=MDBrbG4xdHVxbWxzMjFsYWtpaWdrbTJrZW0gbGFsbG9icmVnYXRAZ21haWwuY29t",
+    "monthKey": "2026-11",
+    "monthLabel": "Novembre 2026",
+    "mapPosition": {
+      "left": "53.68%",
+      "top": "49.02%"
+    }
+  },
+  {
     "id": "calendar-7ukmesm8kmas969bic3h9qltbl-google-com-2026-11-21-15-30-00-000-",
     "day": "21",
     "month": "NOV.",
